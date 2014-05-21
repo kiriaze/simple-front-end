@@ -1,3 +1,12 @@
+// @codekit-prepend 'vendor/jqueyr-2.0.3.min.js'
+// @codekit-prepend 'vendor/modernizr-2.7.1.min.js'
+// @codekit-prepend 'plugins/fastclick.js'
+// @codekit-prepend 'plugins/retina.js'
+// @codekit-prepend 'plugins/simpleAnchors.js'
+// @codekit-prepend 'plugins/jquery.easing.min.js'
+// @codekit-prepend 'plugins/jquery.lazyload.min.js'
+// @codekit-prepend 'plugins/responsive-nav/responsive-nav.min.js'
+
 (function($){
 
 	/* jshint devel:true */
