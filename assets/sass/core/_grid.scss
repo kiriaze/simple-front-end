@@ -1,5 +1,5 @@
 /* ============================================
-    S I M P L E 
+    S I M P L E
 
 
  * The template is for rendering single's.
@@ -7,14 +7,14 @@
  * @package     Simple
  * @version     1.0
  * @author      Constantine Kiriaze
- * @website     github.com/kiriaze/simple        
+ * @website     github.com/kiriaze/simple
 
     Browsers: ie8, ie10, ie11, FF, Safari, Chrome
-    
+
     Dependancies :
 
         Variables below defined in _base.scss
-    
+
             $container-class: 'foo';
             $column-class: 'bar';
             $gutter: 3rem; // spacing between columns
@@ -55,27 +55,26 @@ $gridDebug: false !default;
 
     margin-left: -$gutter;
 
-    [class~='#{$column-class}-'] {
+    [class^='#{$column-class}-'] {
         padding-left: $gutter;
     }
 
 }
 
-@mixin column() {
-    float: left;
-    padding-left: $gutter; // the gutter between columns
-    width: 100%;
-    box-sizing: border-box; 
-    @if( $gridDebug == true ) {
-        background: wheat; // testing purposes
-    }
-}
-
 @mixin grid() {
-    margin-left: -$gutter; // the same as your gutter
+    @include set-gutter($gutter);
     @include clearfix;
     @if( $gridDebug == true ) {
         background: red; // testing purposes
+    }
+}
+
+@mixin column() {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    @if( $gridDebug == true ) {
+        background: wheat; // testing purposes
     }
 }
 
@@ -101,14 +100,14 @@ $gridDebug: false !default;
 
     @for $i from 1 through $max-columns {
         [data-columns='#{$i}'],
-        [class~='#{$column-class}-#{$i}']{
+        [class~='#{$column-class}-#{$i}'] {
             @include columns(1);
             // MediaQueries
-            @include breakpoint(desktop) {
+            @include breakpoint($small) {
                 @include columns($i);
             }
         }
-        
+
     }
 
     // Percentages for mixed widths
@@ -117,7 +116,7 @@ $gridDebug: false !default;
         [class~='#{$column-class}-#{$i}0'] {
             @include columns(1);
             // MediaQueries
-            @include breakpoint(desktop) {
+            @include breakpoint($small) {
                 @include columns($i/10);
             }
         }
@@ -142,25 +141,25 @@ $gridDebug: false !default;
 // CLASS AND DATA DELEGATIONS
 //-------------------------------------------------------
 
-[class='#{$container-class}'],
+[class~='#{$container-class}'],
 [data-layout='grid'] {
     @include grid();
 }
 
 .large-gutter {
-    @include set-gutter($gutter*2); 
+    @include set-gutter($gutter*2);
 }
 
 .half-gutter {
-    @include set-gutter($gutter/2); 
+    @include set-gutter($gutter/2);
 }
 
 .no-gutter {
-    @include set-gutter(0); 
+    @include set-gutter(0);
 }
 
 .reset-gutter {
-    @include set-gutter($gutter); 
+    @include set-gutter($gutter);
 }
 
 // reset for list grids
@@ -174,8 +173,8 @@ ol[data-layout='grid'] {
 
 li[class~='#{$column-class}-'] {
     margin-left: 0;
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
-// Run grid   
+// Run grid
 @include grid-setup();

@@ -24,7 +24,7 @@
     top: 50%;
     transform: translateY(-50%);
 
-    
+
     // Target container - in near future... look at _grid.scss
     // display: flex;
     // align-items: center;
@@ -40,7 +40,7 @@
 }
 
 .no-flick{
-    @extend %no-flick !optional;
+    @extend %no-flick;
 }
 
 .valign{

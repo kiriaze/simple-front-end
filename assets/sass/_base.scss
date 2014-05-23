@@ -1,9 +1,8 @@
 // Site Dimensions
-$super-width: em(1280); // 80em
-$base-width: em(960); // 60em
-$tablet-width: em(720); // 45em
-$mobile-landscape-width: em(480); // 30em
-$mobile-portrait-width: em(320); // 20em
+$tiny: em(480); // 30em
+$small: em(768); // 45em
+$medium: em(960); // 60em
+$large: em(1280); // 80em
 
 // Base
 $rem-base: 16px !default;
@@ -43,6 +42,7 @@ $container-class: 'row'; // defaults to [data-layout="grid"]
 $column-class: 'columns'; // defaults to [data-columns="$"]
 $number-of-columns: 6; // max number of columns
 $layout: 'float'; // float, ib, flex; defaults to float
+// $gutter: 0; // gutter
 
 // fonts - core/_fonts.scss
 $body-font: 'Open Sans', helvetica, sans-serif; // bourbon font stacks

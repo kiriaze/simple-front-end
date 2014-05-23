@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16921",
 "files": {
+	"\/assets\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/images\/gray.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -114,7 +123,7 @@
 		},
 	"\/assets\/js\/vendor\/jquery-2.0.3.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery-2.0.3.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery-2.0.3.min-ck.js",
@@ -125,7 +134,7 @@
 		},
 	"\/assets\/js\/vendor\/modernizr-2.7.1.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/modernizr-2.7.1.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/modernizr-2.7.1.min-ck.js",
@@ -148,7 +157,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/core\/_core.scss": {
 		"createSourceMap": 1,
@@ -164,7 +173,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/core\/_fonts.scss": {
 		"createSourceMap": 1,
@@ -180,7 +189,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/core\/_grid.scss": {
 		"createSourceMap": 1,
@@ -196,7 +205,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/core\/_typography.scss": {
 		"createSourceMap": 1,
@@ -212,7 +221,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/defaults\/_defaults.scss": {
 		"createSourceMap": 1,
@@ -228,7 +237,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/defaults\/_helpers.scss": {
 		"createSourceMap": 1,
@@ -244,7 +253,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/defaults\/_ie.scss": {
 		"createSourceMap": 1,
@@ -260,7 +269,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/defaults\/_placeholders.scss": {
 		"createSourceMap": 1,
@@ -276,7 +285,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/defaults\/_reset.scss": {
 		"createSourceMap": 1,
@@ -292,7 +301,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/main.scss": {
 		"createSourceMap": 1,
@@ -308,7 +317,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_border-radius.scss": {
 		"createSourceMap": 1,
@@ -324,7 +333,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_breakpoints.scss": {
 		"createSourceMap": 1,
@@ -340,7 +349,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_buttons.scss": {
 		"createSourceMap": 1,
@@ -356,7 +365,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_font-size.scss": {
 		"createSourceMap": 1,
@@ -372,7 +381,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_justVertHeader.scss": {
 		"createSourceMap": 1,
@@ -388,7 +397,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_mixins.scss": {
 		"createSourceMap": 1,
@@ -404,7 +413,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_sticky-footer.scss": {
 		"createSourceMap": 1,
@@ -420,7 +429,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/partials\/_footer.scss": {
 		"createSourceMap": 1,
@@ -436,7 +445,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/partials\/_header.scss": {
 		"createSourceMap": 1,
@@ -452,7 +461,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/partials\/_layout.scss": {
 		"createSourceMap": 1,
@@ -468,7 +477,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/partials\/_main.scss": {
 		"createSourceMap": 1,
@@ -484,7 +493,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/partials\/_nav.scss": {
 		"createSourceMap": 1,
@@ -500,7 +509,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/partials\/_sidebar.scss": {
 		"createSourceMap": 1,
@@ -516,7 +525,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/patterns\/_buttons.scss": {
 		"createSourceMap": 1,
@@ -532,7 +541,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/patterns\/_media-elements.scss": {
 		"createSourceMap": 1,
@@ -548,7 +557,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/patterns\/_patterns.scss": {
 		"createSourceMap": 1,
@@ -564,7 +573,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/patterns\/_shame.scss": {
 		"createSourceMap": 1,
@@ -580,7 +589,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/patterns\/_typography.scss": {
 		"createSourceMap": 1,
@@ -596,7 +605,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/_vendor.scss": {
 		"createSourceMap": 1,
@@ -612,7 +621,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/_animate.scss": {
 		"createSourceMap": 1,
@@ -628,7 +637,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/_properties.scss": {
 		"createSourceMap": 1,
@@ -644,7 +653,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounce.scss": {
 		"createSourceMap": 1,
@@ -660,7 +669,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceIn.scss": {
 		"createSourceMap": 1,
@@ -676,7 +685,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceInDown.scss": {
 		"createSourceMap": 1,
@@ -692,7 +701,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceInLeft.scss": {
 		"createSourceMap": 1,
@@ -708,7 +717,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceInRight.scss": {
 		"createSourceMap": 1,
@@ -724,7 +733,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceInUp.scss": {
 		"createSourceMap": 1,
@@ -740,7 +749,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOut.scss": {
 		"createSourceMap": 1,
@@ -756,7 +765,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOutDown.scss": {
 		"createSourceMap": 1,
@@ -772,7 +781,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOutLeft.scss": {
 		"createSourceMap": 1,
@@ -788,7 +797,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOutRight.scss": {
 		"createSourceMap": 1,
@@ -804,7 +813,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOutUp.scss": {
 		"createSourceMap": 1,
@@ -820,7 +829,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeIn.scss": {
 		"createSourceMap": 1,
@@ -836,7 +845,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInDown.scss": {
 		"createSourceMap": 1,
@@ -852,7 +861,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInDownBig.scss": {
 		"createSourceMap": 1,
@@ -868,7 +877,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInLeft.scss": {
 		"createSourceMap": 1,
@@ -884,7 +893,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInLeftBig.scss": {
 		"createSourceMap": 1,
@@ -900,7 +909,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInRight.scss": {
 		"createSourceMap": 1,
@@ -916,7 +925,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInRightBig.scss": {
 		"createSourceMap": 1,
@@ -932,7 +941,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInScale.scss": {
 		"createSourceMap": 1,
@@ -948,7 +957,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInScaleBig.scss": {
 		"createSourceMap": 1,
@@ -964,7 +973,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInUp.scss": {
 		"createSourceMap": 1,
@@ -980,7 +989,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInUpBig.scss": {
 		"createSourceMap": 1,
@@ -996,7 +1005,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOut.scss": {
 		"createSourceMap": 1,
@@ -1012,7 +1021,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutDown.scss": {
 		"createSourceMap": 1,
@@ -1028,7 +1037,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutDownBig.scss": {
 		"createSourceMap": 1,
@@ -1044,7 +1053,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutLeft.scss": {
 		"createSourceMap": 1,
@@ -1060,7 +1069,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutLeftBig.scss": {
 		"createSourceMap": 1,
@@ -1076,7 +1085,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutRight.scss": {
 		"createSourceMap": 1,
@@ -1092,7 +1101,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutRightBig.scss": {
 		"createSourceMap": 1,
@@ -1108,7 +1117,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutScale.scss": {
 		"createSourceMap": 1,
@@ -1124,7 +1133,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutScaleBig.scss": {
 		"createSourceMap": 1,
@@ -1140,7 +1149,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutUp.scss": {
 		"createSourceMap": 1,
@@ -1156,7 +1165,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutUpBig.scss": {
 		"createSourceMap": 1,
@@ -1172,7 +1181,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_flash.scss": {
 		"createSourceMap": 1,
@@ -1188,7 +1197,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_flip.scss": {
 		"createSourceMap": 1,
@@ -1204,7 +1213,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_flipInX.scss": {
 		"createSourceMap": 1,
@@ -1220,7 +1229,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_flipInY.scss": {
 		"createSourceMap": 1,
@@ -1236,7 +1245,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_flipOutX.scss": {
 		"createSourceMap": 1,
@@ -1252,7 +1261,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_flipOutY.scss": {
 		"createSourceMap": 1,
@@ -1268,7 +1277,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_hinge.scss": {
 		"createSourceMap": 1,
@@ -1284,7 +1293,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_lightSpeedIn.scss": {
 		"createSourceMap": 1,
@@ -1300,7 +1309,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_lightSpeedOut.scss": {
 		"createSourceMap": 1,
@@ -1316,7 +1325,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_pulse.scss": {
 		"createSourceMap": 1,
@@ -1332,7 +1341,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rollIn.scss": {
 		"createSourceMap": 1,
@@ -1348,7 +1357,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rollOut.scss": {
 		"createSourceMap": 1,
@@ -1364,7 +1373,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateIn.scss": {
 		"createSourceMap": 1,
@@ -1380,7 +1389,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateInDownLeft.scss": {
 		"createSourceMap": 1,
@@ -1396,7 +1405,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateInDownRight.scss": {
 		"createSourceMap": 1,
@@ -1412,7 +1421,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateInUpLeft.scss": {
 		"createSourceMap": 1,
@@ -1428,7 +1437,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateInUpRight.scss": {
 		"createSourceMap": 1,
@@ -1444,7 +1453,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOut.scss": {
 		"createSourceMap": 1,
@@ -1460,7 +1469,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOutDownLeft.scss": {
 		"createSourceMap": 1,
@@ -1476,7 +1485,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOutDownRight.scss": {
 		"createSourceMap": 1,
@@ -1492,7 +1501,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOutUpLeft.scss": {
 		"createSourceMap": 1,
@@ -1508,7 +1517,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOutUpRight.scss": {
 		"createSourceMap": 1,
@@ -1524,7 +1533,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_shake.scss": {
 		"createSourceMap": 1,
@@ -1540,7 +1549,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideInDown.scss": {
 		"createSourceMap": 1,
@@ -1556,7 +1565,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideInLeft.scss": {
 		"createSourceMap": 1,
@@ -1572,7 +1581,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideInRight.scss": {
 		"createSourceMap": 1,
@@ -1588,7 +1597,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideOutLeft.scss": {
 		"createSourceMap": 1,
@@ -1604,7 +1613,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideOutRight.scss": {
 		"createSourceMap": 1,
@@ -1620,7 +1629,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideOutUp.scss": {
 		"createSourceMap": 1,
@@ -1636,7 +1645,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_swing.scss": {
 		"createSourceMap": 1,
@@ -1652,7 +1661,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_tada.scss": {
 		"createSourceMap": 1,
@@ -1668,7 +1677,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_wiggle.scss": {
 		"createSourceMap": 1,
@@ -1684,7 +1693,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/sass\/vendor\/animate\/animations\/_wobble.scss": {
 		"createSourceMap": 1,
@@ -1700,7 +1709,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -1752,7 +1761,7 @@
 		},
 	"\/partials\/ie.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/ie.kit",
 		"outputAbbreviatedPath": "\/partials\/ie.html",
@@ -2346,7 +2355,7 @@
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 5,
 	"sassOutputStyle": 3,
-	"sassUseLibsass": 0,
+	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 1,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",

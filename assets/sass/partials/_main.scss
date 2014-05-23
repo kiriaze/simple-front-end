@@ -24,7 +24,7 @@ body{
     text-align: center;
 }
 
-@include breakpoint(desktop) {
+@include breakpoint($medium) {
     .text-align-left {
         text-align: left;
     }
@@ -39,17 +39,14 @@ body{
 /* -- Use this wrapper if you want to block-out a column with padding
 Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
 .island {
-    padding: 1rem;
-    @include breakpoint(tablet) {
-        padding: 3rem;
-    }
+    padding: 3vmax 10vw;
 }
 
 [data-layout="grid"],
 [class=#{$container-class}] {
 
     &.wide{
-        max-width: $super-width;
+        max-width: $large;
     }
 
     .primary{
@@ -59,7 +56,7 @@ Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
     .sidebar,
     aside[role="complementary"]{
         width: 100%;
-        @include breakpoint(desktop) {
+        @include breakpoint($medium) {
             @include third(1);
         }
     }
@@ -81,7 +78,7 @@ Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
 .has-sidebar{
     .primary{
         width: 100%;
-        @include breakpoint(desktop) {
+        @include breakpoint($medium) {
             @include third(2);
         }
     }
