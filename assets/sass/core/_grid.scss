@@ -55,9 +55,9 @@ $gridDebug: false !default;
 
     margin-left: -$gutter;
 
-    [class^='#{$column-class}-'] {
-        padding-left: $gutter;
-    }
+    // [class^='#{$column-class}-'] {
+    //     padding-left: $gutter;
+    // }
 
 }
 
@@ -73,6 +73,7 @@ $gridDebug: false !default;
     float: left;
     width: 100%;
     box-sizing: border-box;
+    padding-left: $gutter;
     @if( $gridDebug == true ) {
         background: wheat; // testing purposes
     }
