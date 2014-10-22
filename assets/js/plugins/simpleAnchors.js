@@ -45,7 +45,7 @@
 
         this._defaults  = defaults;
         this._name      = pluginName;
-        
+
         this.link       = element.selector ? element.selector : '[data-scroll-to]';
         this.$link      = $(this.link);
 
@@ -106,7 +106,7 @@
                 $link       = this.$link,
                 offset      = this.options.offset;
 
-            // on scroll, check to see if the element has reached the top, 
+            // on scroll, check to see if the element has reached the top,
             // and if so add class to nav element
             $('[data-scroll-target]').each( function() {
 
@@ -130,7 +130,7 @@
         autoBuild: function(el, options) {
 
             if( this.options.autoBuild ) {
-                
+
                 var sections = this.options.sections, // <h2>
                     container = this.options.sectionEl, // <section>
                     wrapper = this.options.wrapper, // article[role="article"]
@@ -158,7 +158,7 @@
         }
 
     };
-    
+
     // Made into selectorless call
     $[pluginName] = function(options) {
         var $window = $(window);

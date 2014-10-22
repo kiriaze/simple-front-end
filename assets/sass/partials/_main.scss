@@ -3,6 +3,10 @@ body {
 
 }
 
+html {
+
+}
+
 body{
 
 }
@@ -10,13 +14,46 @@ body{
 .container,
 #header,
 #footer {
-    max-width: 85%;
     margin: 0 auto;
 }
 
 // main container
 #main {
 
+}
+
+// // parallax scroll
+// // <div class="parallax" style="background-image: url();"></div>
+// // <div class="parallax-content"></div>
+// .parallax {
+//     background-size: 100% auto;
+//     background-position: center 0;
+//     width: 50%;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     z-index: 0;
+//     overflow: hidden;
+//     background-color: black;
+//     background-image: url(../images/slider-bg.png);
+//     background-size: auto;
+// }
+// .parallax-content {
+//     background: white;
+//     z-index: 1;
+//     position: relative;
+//     @include breakpoint($small) {
+//         margin-left: 50%;
+//     }
+// }
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }
 
 // added by flexible content
@@ -26,13 +63,13 @@ body{
 
 @include breakpoint($medium) {
     .text-align-left {
-        text-align: left;
+        text-align: left!important;
     }
     .text-align-right {
-        text-align: right;
+        text-align: right!important;
     }
     .text-align-center {
-        text-align: center;
+        text-align: center!important;
     }
 }
 
@@ -54,7 +91,7 @@ Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
     }
 
     .sidebar,
-    aside[role="complementary"]{
+    aside[role="complementary"] {
         width: 100%;
         @include breakpoint($medium) {
             @include third(1);
@@ -67,7 +104,7 @@ Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
 
         }
 
-        &:first-of-type{
+        &:first-of-type {
 
         }
     }
@@ -75,8 +112,8 @@ Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
 }
 
 //  if body has class has-sidebar, set primary container to 2/3 width
-.has-sidebar{
-    .primary{
+.has-sidebar {
+    .primary {
         width: 100%;
         @include breakpoint($medium) {
             @include third(2);

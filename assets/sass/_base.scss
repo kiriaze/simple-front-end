@@ -14,12 +14,12 @@ $header-line-height: 1.25 !default;
 $header-top-margin: .2rem !default;
 $header-bottom-margin: 1rem !default;
 
-$h1-font-size: 48 !default;
-$h2-font-size: 40 !default;
-$h3-font-size: 36 !default;
-$h4-font-size: 30 !default;
+$h1-font-size: 38 !default;
+$h2-font-size: 34 !default;
+$h3-font-size: 30 !default;
+$h4-font-size: 26 !default;
 $h5-font-size: 22 !default;
-$h6-font-size: 18 !default;
+$h6-font-size: 16 !default;
 
 // Paragraphs
 $small-font-size: 10 !default;
@@ -42,19 +42,22 @@ $container-class: 'row'; // defaults to [data-layout="grid"]
 $column-class: 'columns'; // defaults to [data-columns="$"]
 $number-of-columns: 6; // max number of columns
 $layout: 'float'; // float, ib, flex; defaults to float
-// $gutter: 0; // gutter
+// $gridDebug: true; // grid colors
+$gutter: 0;
 
 // fonts - core/_fonts.scss
-$body-font: 'Open Sans', helvetica, sans-serif; // bourbon font stacks
-$header-font: 'Helvetica', $body-font; // bourbon font stacks
+$body-font: 'Montserrat', helvetica, sans-serif; // bourbon font stacks
+$header-font: 'Lovelo Black', $body-font; // bourbon font stacks
 
 // Type color
 $light-grey: #f5f5f5;
 $dark-grey: #333;
 
 // theme colors
-$theme-color: red; // null
+$theme-color: #000; // null
 $accent-color: darken($theme-color, 10); // That is, 10% darker than the theme-color.
+$secondary-color: #F5F5E1;
+$tertiary-color: #FDD451;
 
 // Animation Variables
 $duration: .35s; // was .15, upped for hero transition - or change via js

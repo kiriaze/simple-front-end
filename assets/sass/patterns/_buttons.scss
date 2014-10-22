@@ -6,13 +6,13 @@
     border-radius: 0;
     text-transform: uppercase;
     font-weight: 800;
-    @include font-size(18);
+    @include font-size(16);
     color: $dark-grey;
     background: none;
-    border: 3px solid $dark-grey;
+    border: 1px solid $dark-grey;
 
     padding: 0em 2em;
-    line-height: 3em;
+    line-height: 2.5em;
 
     &[data-scroll-to="top"] {
         transition: $transition;
@@ -42,6 +42,25 @@
         color: #fff;
     }
 
+    &.solid {
+        background: $theme-color;
+        border-color: $theme-color;
+        color: white;
+        &:hover {
+            background: $tertiary-color;
+            border-color: $theme-color;
+            color: $dark-grey;
+        }
+        &.invert {
+            background: white;
+            color: $dark-grey;
+            &:hover {
+                background: $tertiary-color;
+                border-color: $tertiary-color;
+            }
+        }
+    }
+
     &.invert {
         color: white;
         border-color: white;
@@ -52,7 +71,7 @@
         }
     }
 
-    .dark &,
+    // .dark &,
     [class*='colored-overlay-'] & {
         @extend .invert;
     }

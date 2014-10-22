@@ -1,20 +1,20 @@
 /* ============================================
-	P L A C E H O L D E R S
+    P L A C E H O L D E R S
 ============================================ */
 
-/*	Photo Styles
+/*  Photo Styles
 ============================================ */
-%vignette{
-	box-shadow: inset 0px 0px 85px rgba(0,0,0,.5);
+%vignette {
+    box-shadow: inset 0px 0px 85px rgba(0,0,0,.5);
 }
 
 /*  No Flick Webkit
 ============================================ */
-%no-flick{
+%no-flick {
     transform: translate3d(0,0,0);
 }
 
-/*	Vertical Align
+/*  Vertical Align
 ============================================ */
 %valign {
     // Vertically center elements, ie9+
@@ -39,15 +39,15 @@
     text-align: left; // reset
 }
 
-.no-flick{
+.no-flick {
     @extend %no-flick;
 }
 
-.valign{
+.valign {
     @extend %valign;
 }
 
-.center{
+.horizontal-center {
     transform: translateX(-50%);
     left: 50%;
 }

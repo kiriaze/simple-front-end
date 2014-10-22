@@ -1,5 +1,5 @@
 //	Justified Vertically aligned Header / nav
-//	Usage : 
+//	Usage :
 //	data-layout="grid"
 //		.brand
 //			a
@@ -26,8 +26,8 @@
 	#{$container-class} { // i.e. .container
 		height: 100%;
 	}
-	@if( $stacked == true ) {	
-		@include breakpoint(phone) {
+	@if( $stacked == true ) {
+		@include breakpoint($tiny) {
 	        #{$brandClass},
 	        #{$brandClass} > *,
 	        nav {

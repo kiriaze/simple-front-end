@@ -8,7 +8,7 @@
 ) {
 	html,
 	body {
-		height: 100%!important; // override smoothscroll
+		// height: 100%!important; // override smoothscroll
 	}
 	body > #{$main-selector} {
 		height:        auto !important;

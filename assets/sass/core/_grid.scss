@@ -31,7 +31,6 @@
 
 ============================================ */
 
-
 //-------------------------------------------------------
 // GRID SETTINGS
 //-------------------------------------------------------
@@ -52,13 +51,8 @@ $gridDebug: false !default;
 // GRID MIXINS
 //-------------------------------------------------------
 @mixin set-gutter($gutter) {
-
     margin-left: -$gutter;
-
-    // [class^='#{$column-class}-'] {
-    //     padding-left: $gutter;
-    // }
-
+    padding-left: $gutter;
 }
 
 @mixin grid() {
@@ -73,7 +67,6 @@ $gridDebug: false !default;
     float: left;
     width: 100%;
     box-sizing: border-box;
-    padding-left: $gutter;
     @if( $gridDebug == true ) {
         background: wheat; // testing purposes
     }
@@ -83,17 +76,25 @@ $gridDebug: false !default;
 
     @include column();
 
-    @if( round($num) == $num ) { // if whole number for even # cols
-        width: column-width($num, $docWidth);
+    // Note: never wrap this with a breakpoint to allow it being wrapped in other styles.
+    // e.g. #elem { @include breakpoint($small) { @include columns(2); } }
+
+    @if ( round($num) == $num ) { // if whole number for even # cols
+        width: column-width($num, $docWidth) - $gutter;
     } @else { // for mixed width cols, data-columns=".3"
-        width: ($num * $docWidth);
+        width: ($num * $docWidth) - $gutter;
     }
+
+    margin-right: $gutter;
 
 }
 
 @mixin third($num) {
     @include column();
-    width: third-width($num, $docWidth);
+
+    @include breakpoint($small) {
+        width: third-width($num, $docWidth);
+    }
 }
 
 // set the proportions you want to use
@@ -101,9 +102,7 @@ $gridDebug: false !default;
 
     @for $i from 1 through $max-columns {
         [data-columns='#{$i}'],
-        [class~='#{$column-class}-#{$i}'] {
-            @include columns(1);
-            // MediaQueries
+        .#{$column-class}-#{$i} {
             @include breakpoint($small) {
                 @include columns($i);
             }
@@ -114,9 +113,7 @@ $gridDebug: false !default;
     // Percentages for mixed widths
     @for $i from 1 through 10 {
         [data-columns='.#{$i}'],
-        [class~='#{$column-class}-#{$i}0'] {
-            @include columns(1);
-            // MediaQueries
+        .#{$column-class}-#{$i}0 {
             @include breakpoint($small) {
                 @include columns($i/10);
             }
@@ -161,20 +158,6 @@ $gridDebug: false !default;
 
 .reset-gutter {
     @include set-gutter($gutter);
-}
-
-// reset for list grids
-ul.#{$container-class},
-ul[data-layout='grid'],
-ol.#{$container-class},
-ol[data-layout='grid'] {
-    padding-left: 0;
-    list-style: none;
-}
-
-li[class~='#{$column-class}-'] {
-    margin-left: 0;
-    margin-bottom: 0;
 }
 
 // Run grid

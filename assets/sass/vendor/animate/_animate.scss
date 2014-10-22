@@ -17,17 +17,17 @@ $visibility: visible;
 // @import "animations/bounceOutLeft";
 // @import "animations/bounceOutRight";
 // @import "animations/bounceOutUp";
-// @import "animations/fadeIn";
-// @import "animations/fadeInDown";
+@import "animations/fadeIn";
+@import "animations/fadeInDown";
 // @import "animations/fadeInDownBig";
 // @import "animations/fadeInLeft";
 // @import "animations/fadeInLeftBig";
 // @import "animations/fadeInRight";
 // @import "animations/fadeInRightBig";
-// @import "animations/fadeInUp";
+@import "animations/fadeInUp";
 // @import "animations/fadeInUpBig";
-// @import "animations/fadeOut";
-// @import "animations/fadeOutDown";
+@import "animations/fadeOut";
+@import "animations/fadeOutDown";
 // @import "animations/fadeOutDownBig";
 // @import "animations/fadeOutLeft";
 // @import "animations/fadeOutLeftBig";
@@ -114,12 +114,12 @@ $visibility: visible;
 // .bounceOutUp {
 // 	@include bounceOutUp($duration, $delay, $function, $fill, $visibility);
 // }
-// .fadeIn {
-// 	@include fadeIn($duration, $delay, $function, $fill, $visibility);
-// }
-// .fadeInDown {
-// 	@include fadeInDown($duration, $delay, $function, $fill, $visibility);
-// }
+.fadeIn {
+	@include fadeIn($duration, $delay, $function, $fill, $visibility);
+}
+.fadeInDown {
+	@include fadeInDown($duration, $delay, $function, $fill, $visibility);
+}
 // .fadeInDownBig {
 // 	@include fadeInDownBig($duration, $delay, $function, $fill, $visibility);
 // }
@@ -135,18 +135,18 @@ $visibility: visible;
 // .fadeInRightBig {
 // 	@include fadeInRightBig($duration, $delay, $function, $fill, $visibility);
 // }
-// .fadeInUp {
-// 	@include fadeInUp($duration, $delay, $function, $fill, $visibility);
-// }
+.fadeInUp {
+	@include fadeInUp($duration, $delay, $function, $fill, $visibility);
+}
 // .fadeInUpBig {
 // 	@include fadeInUpBig($duration, $delay, $function, $fill, $visibility);
 // }
-// .fadeOut {
-// 	@include fadeOut($duration, $delay, $function, $fill, $visibility);
-// }
-// .fadeOutDown {
-// 	@include fadeOutDown($duration, $delay, $function, $fill, $visibility);
-// }
+.fadeOut {
+	@include fadeOut($duration, $delay, $function, $fill, $visibility);
+}
+.fadeOutDown {
+	@include fadeOutDown($duration, $delay, $function, $fill, $visibility);
+}
 // .fadeOutDownBig {
 // 	@include fadeOutDownBig($duration, $delay, $function, $fill, $visibility);
 // }

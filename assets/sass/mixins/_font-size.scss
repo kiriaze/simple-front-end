@@ -20,12 +20,16 @@
     }
 
     @if $vw {
-        font-size: $size / strip-unit($rem-base) * 3.2vw;
+        font-size: 4.5vw;
+        // font-size: $size / strip-unit($rem-base) * 2.7vw;
+
         @include breakpoint($small) {
-            font-size: $size / strip-unit($rem-base) * 1.25vw;
+            // font-size: $size / strip-unit($rem-base) * 2.2vw;
+            font-size: 2.4vw;
         }
         @include breakpoint($medium) {
-            font-size: $size / strip-unit($rem-base) * 1.30vw;
+            // font-size: $size / strip-unit($rem-base) * 1.30vw;
+            font-size: 2vw;
         }
     }
 
