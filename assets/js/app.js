@@ -26,7 +26,15 @@
 
 	SHORTNAME.init = function(){
 		SHORTNAME.setElements();
+		SHORTNAME.colors();
 		SHORTNAME.basics();
+		SHORTNAME.widowFix();
+		SHORTNAME.pageTransitions();
+		SHORTNAME.instagram();
+		SHORTNAME.parallaxVert();
+		SHORTNAME.mobileNav();
+		SHORTNAME.infinitescroll();
+		SHORTNAME.forms();
 		SHORTNAME.vertAlign();
 	};
 
@@ -37,14 +45,39 @@
 		SHORTNAME.elems.html				=	$('html');
 		SHORTNAME.elems.body				=	$('body');
 		SHORTNAME.elems.valign				=	$('.valign');
-		SHORTNAME.elems.commentform		=	$('#commentform');
-		SHORTNAME.elems.contactForm		=	$('#contactForm');
+		SHORTNAME.elems.commentform			=	$('#commentform');
+		SHORTNAME.elems.contactForm			=	$('#contactForm');
 		SHORTNAME.elems.loadMoreContainer	=	$('.load-more-container');
-		SHORTNAME.elems.scrollToTop		=	$('a[data-scroll-to="top"]');
+		SHORTNAME.elems.scrollToTop			=	$('a[data-scroll-to="top"]');
 		SHORTNAME.elems.commentReplyLink	=	$('.comment-reply-link');
-		SHORTNAME.elems.respond			=	$('#respond');
-		SHORTNAME.elems.lazyImg			=	$('img.lazy');
+		SHORTNAME.elems.respond				=	$('#respond');
+		SHORTNAME.elems.lazyImg				=	$('img.lazy');
+		SHORTNAME.elems.mobileNav			=	$('nav-collapse');
 	};
+
+    SHORTNAME.colors = function() {
+        var colors = {
+            aqua    : '#7FDBFF',
+            blue    : '#0074D9',
+            lime    : '#01FF70',
+            navy    : '#001F3F',
+            teal    : '#39CCCC',
+            olive   : '#3D9970',
+            green   : '#2ECC40',
+            red     : '#FF4136',
+            maroon  : '#85144B',
+            orange  : '#FF851B',
+            purple  : '#B10DC9',
+            yellow  : '#FFDC00',
+            fuchsia : '#F012BE',
+            gray    : '#aaa',
+            white   : '#fff',
+            black   : '#111',
+            silver  : '#ddd'
+        };
+        // console.log(colors);
+        // console.log(colors.blue);
+    };
 
 	SHORTNAME.basics = function(){
 
@@ -156,18 +189,21 @@
 	};
 
 	SHORTNAME.mobileNav = function() {
+
+		if ( !SHORTNAME.elems.mobileNav.length ) return;
+
 		// responsive nav
-		var nav = responsiveNav(".nav-collapse", { // Selector
-			animate: true, // Boolean: Use CSS3 transitions, true or false
-			transition: 284, // Integer: Speed of the transition, in milliseconds
-			label: "Menu", // String: Label for the navigation toggle
-			insert: "before", // String: Insert the toggle before or after the navigation
-			// customToggle: "", // Selector: Specify the ID of a custom toggle
-			closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
-			openPos: "relative", // String: Position of the opened nav, relative or static
-			navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
-			navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
-			jsClass: "js", // String: 'JS enabled' class which is added to  element
+		var nav = responsiveNav('.nav-collapse', { // Selector
+			animate:			true, // Boolean: Use CSS3 transitions, true or false
+			transition: 		284, // Integer: Speed of the transition, in milliseconds
+			label:				'Menu', // String: Label for the navigation toggle
+			insert:				'before', // String: Insert the toggle before or after the navigation
+			// customToggle:		'', // Selector: Specify the ID of a custom toggle
+			closeOnNavClick: 	false, // Boolean: Close the navigation when one of the links are clicked
+			openPos:			'relative', // String: Position of the opened nav, relative or static
+			navClass:			'nav-collapse', // String: Default CSS class. If changed, you need to edit the CSS too!
+			navActiveClass:		'js-nav-active', // String: Class that is added to  element when nav is active
+			jsClass:			'js', // String: 'JS enabled' class which is added to  element
 		});
 	};
 

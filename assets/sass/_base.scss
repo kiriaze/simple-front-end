@@ -1,65 +1,95 @@
 // Site Dimensions
-$tiny: em(480); // 30em
-$small: em(768); // 45em
-$medium: em(960); // 60em
-$large: em(1280); // 80em
+$tiny:							em(480); // 30em
+$small:							em(768); // 45em
+$medium:						em(960); // 60em
+$large:							em(1280); // 80em
 
 // Base
-$rem-base: 16px !default;
-$base-font-size: 100% !default; // $base-font-size is 16px
-$base-line-height: 125% !default; // $base-line-height is 24px if 150%
+$rem-base:						16px !default;
+$base-font-size:				100% !default; // $base-font-size is 16px
+$base-line-height:				125% !default; // $base-line-height is 24px if 150%
 
 // Headings
-$header-line-height: 1.25 !default;
-$header-top-margin: .2rem !default;
-$header-bottom-margin: 1rem !default;
+$header-line-height:			1.25 !default;
+$header-top-margin:				.2rem !default;
+$header-bottom-margin:			1rem !default;
 
-$h1-font-size: 38 !default;
-$h2-font-size: 34 !default;
-$h3-font-size: 30 !default;
-$h4-font-size: 26 !default;
-$h5-font-size: 22 !default;
-$h6-font-size: 16 !default;
+$h1-font-size:					38 !default;
+$h2-font-size:					34 !default;
+$h3-font-size:					30 !default;
+$h4-font-size:					26 !default;
+$h5-font-size:					22 !default;
+$h6-font-size:					16 !default;
 
 // Paragraphs
-$small-font-size: 10 !default;
-$paragraph-font-size: 16 !default;
-$paragraph-lead-font-size: 20 !default;
-$paragraph-bottom-margin: 1rem !default;
-$paragraph-lead-bottom-margin: 1rem !default;
-$paragraph-line-height: 1.8 !default;
+$small-font-size:				10 !default;
+$paragraph-font-size:			16 !default;
+$paragraph-lead-font-size:		20 !default;
+$paragraph-bottom-margin:		1rem !default;
+$paragraph-lead-bottom-margin:	1rem !default;
+$paragraph-line-height:			1.8 !default;
 
 // Lists
-$list-bottom-margin: .5rem !default;
-$list-disc-left-margin: .5rem !default;
-$list-line-height: 1.6 !default;
+$list-bottom-margin:			.5rem !default;
+$list-disc-left-margin:			.5rem !default;
+$list-line-height:				1.6 !default;
 
 // Blockquotes
-$blockquotes-font-size: 21 !default;
+$blockquotes-font-size:			21 !default;
 
 // container and column classes for simplegrid
-$container-class: 'row'; // defaults to [data-layout="grid"]
-$column-class: 'columns'; // defaults to [data-columns="$"]
-$number-of-columns: 6; // max number of columns
-$layout: 'float'; // float, ib, flex; defaults to float
-// $gridDebug: true; // grid colors
-$gutter: 0;
+$container-class:				'row'; // defaults to [data-layout  ="grid"]
+$column-class:					'columns'; // defaults to [data-columns ="$"]
+$number-of-columns:				6; // max number of columns
+$layout:						'float'; // float, ib, flex; defaults to float
+// $gridDebug:						true; // grid colors
+$gutter:						0;
 
 // fonts - core/_fonts.scss
-$body-font: 'Open Sans', helvetica, sans-serif; // bourbon font stacks
-$header-font: 'Open Sans', $body-font; // bourbon font stacks
+$body-font:						'Open Sans', helvetica, sans-serif; // bourbon font stacks
+$header-font:					'Open Sans', $body-font; // bourbon font stacks
 
-// Type color
-$light-grey: #f5f5f5;
-$dark-grey: #333;
+
+//
+// COLOR VARIABLES - nicer browser defaults
+//
+// - Cool
+// - Warm
+// - Gray Scale
+//
+
+// Cool
+$aqua:                          #7FDBFF;
+$blue:                          #0074D9;
+$navy:                          #001F3F;
+$teal:                          #39CCCC;
+$green:                         #2ECC40;
+$olive:                         #3D9970;
+$lime:                          #01FF70;
+
+// Warm
+$yellow:                        #FFDC00;
+$orange:                        #FF851B;
+$red:                           #FF4136;
+$fuchsia:                       #F012BE;
+$purple:                        #B10DC9;
+$maroon:                        #85144B;
+
+// Gray Scale
+$white:                         #fff;
+$silver:                        #ddd;
+$gray:                          #aaa;
+$black:                         #111;
+$light-grey:                    #f5f5f5;
+$dark-grey:                     #333;
 
 // theme colors
-$theme-color: #000; // null
-$accent-color: darken($theme-color, 10); // That is, 10% darker than the theme-color.
-$secondary-color: #F5F5E1;
-$tertiary-color: #FDD451;
+$theme-color:                   $red;
+$accent-color:                  darken($theme-color, 10); // That is, 10% darker than the theme-color.
+$secondary-color:               $navy;
+$tertiary-color:                $yellow;
 
 // Animation Variables
-$duration: .35s; // was .15, upped for hero transition - or change via js
-$delay: .2s;
-$transition: all $duration cubic-bezier(0.2, .4, .1, 1); // thumbnail animations
+$duration:						.35s; // was .15, upped for hero transition - or change via js
+$delay:							.2s;
+$transition:					all $duration cubic-bezier(0.2, .4, .1, 1); // thumbnail animations
