@@ -62,15 +62,11 @@
 	}
 
 	.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-		cursor:
-		cursor:
 		cursor: zoom-out;
 	}
 
 	.mfp-zoom {
 		cursor: pointer;
-		cursor:
-		cursor:
 		cursor: zoom-in;
 	}
 
@@ -116,7 +112,8 @@
 		display: none;
 	}
 
-	button.mfp-close, button.mfp-arrow {
+	button.mfp-close,
+	button.mfp-arrow {
 		overflow: visible;
 		cursor: pointer;
 		background: transparent;
@@ -127,9 +124,10 @@
 		z-index: 1046;
 		box-shadow: none;
 	}
-	button:
-	padding: 0;
-	border: 0;
+	button::-moz-focus-inner {
+		padding: 0;
+		border: 0;
+	}
 }
 
 .mfp-close {
@@ -185,6 +183,7 @@
 	padding: 0;
 	width: 90px;
 	height: 110px;
+}
 	.mfp-arrow:active {
 		margin-top: -54px;
 	}
@@ -333,51 +332,51 @@ img.mfp-img {
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-/**
-* Remove all paddings around the image on small screen
-*/
-.mfp-img-mobile .mfp-image-holder {
-	padding-left: 0;
-	padding-right: 0;
-}
-.mfp-img-mobile img.mfp-img {
-	padding: 0;
-}
-.mfp-img-mobile .mfp-figure:after {
-	top: 0;
-	bottom: 0;
-}
-.mfp-img-mobile .mfp-figure small {
-	display: inline;
-	margin-left: 5px;
-}
-.mfp-img-mobile .mfp-bottom-bar {
-	background: rgba(0, 0, 0, 0.6);
-	bottom: 0;
-	margin: 0;
-	top: auto;
-	padding: 3px 5px;
-	position: fixed;
-	box-sizing: border-box;
-}
-.mfp-img-mobile .mfp-bottom-bar:empty {
-	padding: 0;
-}
-.mfp-img-mobile .mfp-counter {
-	right: 5px;
-	top: 3px;
-}
-.mfp-img-mobile .mfp-close {
-	top: 0;
-	right: 0;
-	width: 35px;
-	height: 35px;
-	line-height: 35px;
-	background: rgba(0, 0, 0, 0.6);
-	position: fixed;
-	text-align: center;
-	padding: 0;
-}
+	/**
+	* Remove all paddings around the image on small screen
+	*/
+	.mfp-img-mobile .mfp-image-holder {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.mfp-img-mobile img.mfp-img {
+		padding: 0;
+	}
+	.mfp-img-mobile .mfp-figure:after {
+		top: 0;
+		bottom: 0;
+	}
+	.mfp-img-mobile .mfp-figure small {
+		display: inline;
+		margin-left: 5px;
+	}
+	.mfp-img-mobile .mfp-bottom-bar {
+		background: rgba(0, 0, 0, 0.6);
+		bottom: 0;
+		margin: 0;
+		top: auto;
+		padding: 3px 5px;
+		position: fixed;
+		box-sizing: border-box;
+	}
+	.mfp-img-mobile .mfp-bottom-bar:empty {
+		padding: 0;
+	}
+	.mfp-img-mobile .mfp-counter {
+		right: 5px;
+		top: 3px;
+	}
+	.mfp-img-mobile .mfp-close {
+		top: 0;
+		right: 0;
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		background: rgba(0, 0, 0, 0.6);
+		position: fixed;
+		text-align: center;
+		padding: 0;
+	}
 }
 
 @media all and (max-width: 900px) {
