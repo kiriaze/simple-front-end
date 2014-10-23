@@ -1,0 +1,118 @@
+<!-- @import "../partials/header.kit" -->
+
+<!-- Add your site or application content here -->
+<table class="table table-striped table-hover table-bordered">
+	<caption>Table captions should explain what the table is about. These are especially helpful for screen readers. If
+		you want to hide this for the seeing but not the blind then you should visibly hide this; <em>display none hides
+		from screen readers too so don't use that</em>.
+	</caption>
+	<thead>
+		<tr>
+			<th></th>
+			<th scope="col">Name</th>
+			<th scope="col">Age</th>
+			<th scope="col">Birthday</th>
+		</tr>
+	</thead>
+	<tfoot></tfoot>
+	<tbody class="">
+		<tr class="active">
+			<th rowspan="2" scope="row">by birth</th>
+			<th scope="row">Jackie</th>
+			<td>5</td>
+			<td>April 5</td>
+		</tr>
+		<tr class="success">
+			<th scope="row">Beth</th>
+			<td>8</td>
+			<td>January 14</td>
+		</tr>
+		<tr class="warning">
+			<th scope="row">by marriage</th>
+			<th scope="row">Beth</th>
+			<td>8</td>
+			<td>January 14</td>
+		</tr>
+		<tr class="danger">
+			<th scope="row">by marriage</th>
+			<th scope="row">Beth</th>
+			<td>8</td>
+			<td>January 14</td>
+		</tr>
+		<tr class="info">
+			<th scope="row">by marriage</th>
+			<th scope="row">Beth</th>
+			<td>8</td>
+			<td>January 14</td>
+		</tr>
+		<tr>
+			<th scope="row">by marriage</th>
+			<th scope="row">Beth</th>
+			<td>8</td>
+			<td>January 14</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="table-responsive">
+	<table class="table table-hover table-bordered">
+		<caption>This table is about stuff.</em>.
+		</caption>
+		<thead>
+			<tr>
+				<th scope="col">Things</th>
+				<th scope="col">Column 1</th>
+				<th scope="col">Column 2</th>
+				<th scope="col">Column 3</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td>Total 1</td>
+				<td>Column 1 total</td>
+				<td>Column 2 total</td>
+				<td>Column 3 total</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>by birth</td>
+				<td>Jackie</td>
+				<td>5</td>
+				<td>April 5</td>
+			</tr>
+			<tr>
+				<td>stuff</td>
+				<td>Beth</td>
+				<td class="active">8</td>
+				<td>January 14</td>
+			</tr>
+			<tr>
+				<td>by marriage</td>
+				<td>Beth</td>
+				<td>8</td>
+				<td class="success">January 14</td>
+			</tr>
+			<tr>
+				<td>by marriage</td>
+				<td>Beth</td>
+				<td class="info">8</td>
+				<td>January 14</td>
+			</tr>
+			<tr>
+				<td>by marriage</td>
+				<td>Beth</td>
+				<td>8</td>
+				<td class="warning">January 14</td>
+			</tr>
+			<tr>
+				<td>by marriage</td>
+				<td>Beth</td>
+				<td class="danger">8</td>
+				<td>January 14</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<!-- @import "../partials/footer.kit" -->

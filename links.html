@@ -16,8 +16,10 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-    <!-- @import "ie.kit" -->
-    <!-- //@import "typekit.kit" -->
+    <!--[if (gte IE 6)&(lte IE 8)]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<![endif]-->    <!-- //@import "typekit.kit" -->
     <link rel="stylesheet" href="assets/css/main.css">
 
 </head>
@@ -49,3 +51,33 @@
         </nav>
 
     </header>
+
+
+        <div class="container">
+            <div class="row cf">
+                <div class="col-16">
+                    <a href="#" class="btn btn-block">Button basic style</a>
+                </div>
+                <div class="col-16">
+                    <a href="#" class="btn large">Button basic style</a>
+                </div>
+                <div class="col-16">
+                    <a href="#" class="btn">Button basic style</a>
+                </div>
+                <div class="col-16">
+                    <a href="#" class="btn small">Button basic style</a>
+                </div>
+                <div class="col-16">
+                    <a href="#">Default Link</a>
+                </div>
+            </div>
+        </div>
+
+	<footer role="contentinfo" id="footer">
+
+	</footer>
+
+    <script src="assets/js/app-min.js"></script>
+
+	</body>
+</html>
