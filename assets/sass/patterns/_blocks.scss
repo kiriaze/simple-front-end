@@ -1,0 +1,80 @@
+// example
+// <div class='block'>
+//     <div class='content'>Aspect ratio of 1:1</div>
+// </div>
+.block {
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: $transition;
+    @extend %no-flick;
+
+    &.has-content {
+        &:after {
+            display: none;
+        }
+        .content {
+            position: relative;
+            margin: 0 auto;
+        }
+        @include breakpoint($small) {
+            &:after {
+                display: block;
+            }
+            .content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+
+    > .content {
+        width: 90%;
+    }
+
+    .content {
+
+        text-align: center;
+        padding: 5% 0;
+
+        @include breakpoint($small) {
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+    }
+    &:after {
+        content: '';
+        display: block;
+        padding-bottom: 100%;  /* initial ratio of 1:1*/
+    }
+
+    @include breakpoint($small) {
+
+        /* Other ratios */
+        &.ratio-2-1:after {
+            padding-bottom: 50%;
+        }
+        &.ratio-16-9:after {
+            padding-bottom: 56.25%;
+        }
+        &.ratio-4-3:after {
+            padding-bottom: 75%;
+        }
+        &.ratio-2-3:after {
+            padding-bottom: 150%;
+        }
+        &.ratio-1-2:after {
+            padding-bottom: 200%;
+        }
+
+    }
+
+}

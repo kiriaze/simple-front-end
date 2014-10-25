@@ -1,0 +1,53 @@
+$tickerHeight: 50px;
+
+// Comment if you dont want to pause the text on hover
+// .text-ticker ul:hover {
+// 	animation-play-state: paused;
+// }
+
+.text-ticker {
+	width: 100%;
+	height: $tickerHeight;
+	overflow: hidden;
+	font-size: 1rem;
+	text-align: center;
+	transform: translateY(50%);
+}
+
+.text-ticker ul {
+	animation: ticker 5s cubic-bezier(1, 0, .5, 0) infinite;
+}
+
+.text-ticker li {
+	margin: 0;
+	> * {
+		padding: 0;
+		text-transform: uppercase;
+		letter-spacing: .15em;
+		font-weight: 800;
+		line-height: $tickerHeight;
+		font-size: 3rem;
+		// color: white;
+	}
+}
+
+@keyframes ticker {
+	0% {
+		margin-top: 0;
+	}
+	20% {
+		margin-top: -$tickerHeight;
+	}
+	40% {
+		margin-top: -$tickerHeight*2;
+	}
+	60% {
+		margin-top: -$tickerHeight*3;
+	}
+	80% {
+		margin-top: -$tickerHeight*4;
+	}
+	100% {
+		margin-top: 0;
+	}
+}

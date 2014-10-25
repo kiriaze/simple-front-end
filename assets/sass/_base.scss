@@ -40,14 +40,15 @@ $blockquotes-font-size:			21 !default;
 // container and column classes for simplegrid
 $container-class:				'row'; // defaults to [data-layout  ="grid"]
 $column-class:					'columns'; // defaults to [data-columns ="$"]
-$number-of-columns:				6; // max number of columns
+$number-of-columns:				12; // max number of columns
 $layout:						'float'; // float, ib, flex; defaults to float
-// $gridDebug:						true; // grid colors
-$gutter:						0;
+$gridDebug:						true; // grid colors
+// $gutter:						0;
 
 // fonts - core/_fonts.scss
-$body-font:						'Open Sans', helvetica, sans-serif; // bourbon font stacks
-$header-font:					'Open Sans', $body-font; // bourbon font stacks
+$body-font:						'Apercu Pro', helvetica, sans-serif; // bourbon font stacks
+$header-font:					'Apercu Pro', $body-font; // theme specific
+$header-font2:					'Garage Gothic', $body-font; // theme specific
 
 
 //
@@ -68,7 +69,7 @@ $olive:                         #3D9970;
 $lime:                          #01FF70;
 
 // Warm
-$yellow:                        #FFDC00;
+$yellow:                        #fff200;
 $orange:                        #FF851B;
 $red:                           #FF4136;
 $fuchsia:                       #F012BE;
@@ -84,10 +85,10 @@ $light-grey:                    #f5f5f5;
 $dark-grey:                     #333;
 
 // theme colors
-$theme-color:                   $red;
+$theme-color:                   #A6DBDE;
 $accent-color:                  darken($theme-color, 10); // That is, 10% darker than the theme-color.
-$secondary-color:               $navy;
-$tertiary-color:                $yellow;
+$secondary-color:               #1E3160;
+$tertiary-color:                $accent-color;
 
 // Animation Variables
 $duration:						.35s; // was .15, upped for hero transition - or change via js

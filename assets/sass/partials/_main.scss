@@ -22,6 +22,36 @@ body{
 
 }
 
+.container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-columns {
+	@include breakpoint($small) {
+		column-count: 2;
+	}
+}
+
+.dark {
+    background: $dark-grey;
+    color: white;
+    p {
+    	color: $theme-color;
+    }
+}
+
+.no-flick {
+    @extend %no-flick;
+}
+
+.valign {
+    @extend %valign;
+}
+
 .float-left {
     float: left;
 }

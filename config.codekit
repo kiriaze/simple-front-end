@@ -2,6 +2,24 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18027",
 "files": {
+	"\/404.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/css\/main-blessed1.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -20,6 +38,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/fonts\/font-awesome\/font-awesome.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/fonts\/font-awesome\/font-awesome.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/fonts\/foundation\/foundation-icons.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/fonts\/foundation\/foundation-icons.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/fonts\/ionicons\/ionicons.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/fonts\/ionicons\/ionicons.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/images\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -27,6 +72,28 @@
 		"initialSize": 1226,
 		"inputAbbreviatedPath": "\/assets\/images\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/assets\/images\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/arrow-down.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1208,
+		"inputAbbreviatedPath": "\/assets\/images\/arrow-down.png",
+		"outputAbbreviatedPath": "\/assets\/images\/arrow-down.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/footer-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47911,
+		"inputAbbreviatedPath": "\/assets\/images\/footer-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/footer-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -40,6 +107,28 @@
 		"outputAbbreviatedPath": "\/assets\/images\/gray.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/logo-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3462,
+		"inputAbbreviatedPath": "\/assets\/images\/logo-footer.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo-footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3497,
+		"inputAbbreviatedPath": "\/assets\/images\/logo-header.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
 	"\/assets\/images\/mediaelement\/jplayer.png": {
@@ -49,6 +138,204 @@
 		"initialSize": 1590,
 		"inputAbbreviatedPath": "\/assets\/images\/mediaelement\/jplayer.png",
 		"outputAbbreviatedPath": "\/assets\/images\/mediaelement\/jplayer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/all\/waveloch-cta-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 773389,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/all\/waveloch-cta-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/all\/waveloch-cta-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/home\/1200wx800h-basic-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 647795,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/1200wx800h-basic-home.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/1200wx800h-basic-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/home\/400wx400h-basic-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129587,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/400wx400h-basic-home.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/400wx400h-basic-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/home\/400wx800h-basic-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54174,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/400wx800h-basic-home.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/400wx800h-basic-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/home\/full-panel-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 693922,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/full-panel-bw.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/full-panel-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pages\/home\/surf-report-iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369895,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/surf-report-iphone.png",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/surf-report-iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/home\/waveloch-hero-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 381352,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/waveloch-hero-home.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/waveloch-hero-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/opportunity\/opportunity-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 508983,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/opportunity\/opportunity-bw.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/opportunity\/opportunity-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pages\/opportunity\/opportunity-hero-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 691336,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/opportunity\/opportunity-hero-image.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/opportunity\/opportunity-hero-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pages\/surfpool\/bw-gradient.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 450338,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/bw-gradient.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/bw-gradient.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pages\/surfpool\/concept-art.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/concept-art.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/concept-art.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/surfpool\/waveloch-full-v-series.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.15878e+07,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/waveloch-full-v-series.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/waveloch-full-v-series.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/surfpool\/waveloch-hero-surfpool.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 672670,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/waveloch-hero-surfpool.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/waveloch-hero-surfpool.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/surfpool\/x-series-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124520,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/x-series-bw.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/x-series-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pages\/waveloch\/full-panel-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8.38861e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/waveloch\/full-panel-bw.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/waveloch\/full-panel-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/pages\/waveloch\/waveloch-hero-about.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 246730,
+		"inputAbbreviatedPath": "\/assets\/images\/pages\/waveloch\/waveloch-hero-about.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pages\/waveloch\/waveloch-hero-about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/squiggles.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7441,
+		"inputAbbreviatedPath": "\/assets\/images\/squiggles.png",
+		"outputAbbreviatedPath": "\/assets\/images\/squiggles.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/squiggly.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1201,
+		"inputAbbreviatedPath": "\/assets\/images\/squiggly.png",
+		"outputAbbreviatedPath": "\/assets\/images\/squiggly.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -88,7 +375,7 @@
 		},
 	"\/assets\/js\/plugins\/infinite-scroll\/jquery.infinitescroll.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/infinite-scroll\/jquery.infinitescroll.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.infinitescroll.min-min.js",
@@ -99,7 +386,7 @@
 		},
 	"\/assets\/js\/plugins\/infinite-scroll\/manual-trigger.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/infinite-scroll\/manual-trigger.js",
 		"outputAbbreviatedPath": "\/assets\/js\/manual-trigger-min.js",
@@ -108,12 +395,12 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/js\/plugins\/jquery.easing.min.js": {
+	"\/assets\/js\/plugins\/isOnScreen.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.easing.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/jquery.easing.min-min.js",
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/isOnScreen.js",
+		"outputAbbreviatedPath": "\/assets\/js\/isOnScreen-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -163,12 +450,45 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/plugins\/jquery.photoset-grid.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.photoset-grid.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/jquery.photoset-grid.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/jquery.stellar.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.stellar.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/jquery.stellar.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/plugins\/jquery.validate.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.validate.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.validate.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/mediaelement-and-player.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/mediaelement-and-player.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/mediaelement-and-player.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -183,7 +503,7 @@
 		"outputAbbreviatedPath": "\/assets\/js\/plugins\/owl-carousel\/assets\/img\/owl.video.play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_mixins.scss": {
 		"createSourceMap": 1,
@@ -367,6 +687,17 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/plugins\/prettify.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/prettify.js",
+		"outputAbbreviatedPath": "\/assets\/js\/prettify-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/plugins\/responsive-nav\/responsive-nav.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -391,10 +722,21 @@
 		},
 	"\/assets\/js\/plugins\/signet.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/signet.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/signet.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/simple-media.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/simple-media.js",
+		"outputAbbreviatedPath": "\/assets\/js\/simple-media-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -406,6 +748,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/simpleAnchors.js",
 		"outputAbbreviatedPath": "\/assets\/js\/simpleAnchors-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/simpleforms.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/simpleforms.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/simpleforms.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -433,12 +786,34 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/js\/vendor\/modernizr-2.8.2.min.js": {
+	"\/assets\/js\/vendor\/jquery-ui.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/vendor\/modernizr-2.8.2.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/modernizr-2.8.2.min-min.js",
+		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery-ui.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/jquery-ui.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/vendor\/jquery.easing.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.easing.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/jquery.easing.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/vendor\/modernizr-2.8.3.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/vendor\/modernizr-2.8.3.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/modernizr-2.8.3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -732,22 +1107,6 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
-	"\/assets\/sass\/pages\/_about.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/pages\/_about.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_about.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 1
-		},
 	"\/assets\/sass\/pages\/_home.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -773,22 +1132,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/pages\/_pages.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/_pages.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 1
-		},
-	"\/assets\/sass\/pages\/_shop.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/pages\/_shop.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_shop.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -892,6 +1235,38 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
+	"\/assets\/sass\/patterns\/_alerts.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_alerts.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_alerts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_blocks.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_blocks.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_blocks.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
 	"\/assets\/sass\/patterns\/_buttons.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -901,6 +1276,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_buttons.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_callouts.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_callouts.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_callouts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -924,6 +1315,38 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
+	"\/assets\/sass\/patterns\/_forms.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_forms.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_hero.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_hero.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_hero.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
 	"\/assets\/sass\/patterns\/_html5-video.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -940,6 +1363,70 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
+	"\/assets\/sass\/patterns\/_icons.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_icons.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_icons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_image-filters.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_image-filters.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_image-filters.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_image-grid.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_image-grid.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_image-grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_lists.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_lists.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_lists.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
 	"\/assets\/sass\/patterns\/_media-elements.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -949,6 +1436,70 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_media-elements.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/_media-elements.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_modals.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_modals.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_modals.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_mpf-effects.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_mpf-effects.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_mpf-effects.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_mpf.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_mpf.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_mpf.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_notes.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_notes.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_notes.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -1004,6 +1555,38 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
+	"\/assets\/sass\/patterns\/_prettyprint.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_prettyprint.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_prettyprint.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_sections.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_sections.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_sections.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
 	"\/assets\/sass\/patterns\/_shame.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -1013,6 +1596,102 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_shame.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/_shame.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_stats.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_stats.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_stats.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_tables.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_tables.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_tables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_tabs.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_tabs.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_tabs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_ticker.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_ticker.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_ticker.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_toggles-accordions.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_toggles-accordions.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_toggles-accordions.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_tooltips.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_tooltips.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_tooltips.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -2140,6 +2819,42 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
+	"\/contact.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/default.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/faq.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/faq.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/grid.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/grid.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2161,6 +2876,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/opportunity.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/opportunity.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/pages\/404.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -2170,12 +2894,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/forms.kit": {
+	"\/pages\/about.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/forms.kit",
-		"outputAbbreviatedPath": "\/forms.html",
+		"inputAbbreviatedPath": "\/pages\/about.kit",
+		"outputAbbreviatedPath": "\/about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/contact.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/contact.kit",
+		"outputAbbreviatedPath": "\/contact.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/default.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/default.kit",
+		"outputAbbreviatedPath": "\/default.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/faq.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/faq.kit",
+		"outputAbbreviatedPath": "\/faq.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2197,30 +2948,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/links.kit": {
+	"\/pages\/opportunity.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/links.kit",
-		"outputAbbreviatedPath": "\/links.html",
+		"inputAbbreviatedPath": "\/pages\/opportunity.kit",
+		"outputAbbreviatedPath": "\/opportunity.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/lists.kit": {
+	"\/pages\/surfpool.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/lists.kit",
-		"outputAbbreviatedPath": "\/lists.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/tables.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/tables.kit",
-		"outputAbbreviatedPath": "\/tables.html",
+		"inputAbbreviatedPath": "\/pages\/surfpool.kit",
+		"outputAbbreviatedPath": "\/surfpool.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2233,39 +2975,93 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/footer.kit": {
+	"\/partials\/_footer-cta.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/footer.kit",
-		"outputAbbreviatedPath": "\/footer.html",
+		"inputAbbreviatedPath": "\/partials\/_footer-cta.kit",
+		"outputAbbreviatedPath": "\/_footer-cta.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/header.kit": {
+	"\/partials\/_footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/header.kit",
-		"outputAbbreviatedPath": "\/header.html",
+		"inputAbbreviatedPath": "\/partials\/_footer.kit",
+		"outputAbbreviatedPath": "\/_footer.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/ie.kit": {
+	"\/partials\/_header.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/ie.kit",
-		"outputAbbreviatedPath": "\/ie.html",
+		"inputAbbreviatedPath": "\/partials\/_header.kit",
+		"outputAbbreviatedPath": "\/_header.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/typekit.kit": {
+	"\/partials\/_icons.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_icons.kit",
+		"outputAbbreviatedPath": "\/_icons.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_ie.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/typekit.kit",
-		"outputAbbreviatedPath": "\/typekit.html",
+		"inputAbbreviatedPath": "\/partials\/_ie.kit",
+		"outputAbbreviatedPath": "\/_ie.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_image-grid-1.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_image-grid-1.kit",
+		"outputAbbreviatedPath": "\/_image-grid-1.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_image-grid-2.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_image-grid-2.kit",
+		"outputAbbreviatedPath": "\/_image-grid-2.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_parallax-split.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_parallax-split.kit",
+		"outputAbbreviatedPath": "\/_parallax-split.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_typekit.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_typekit.kit",
+		"outputAbbreviatedPath": "\/_typekit.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_variables.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_variables.kit",
+		"outputAbbreviatedPath": "\/_variables.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2278,6 +3074,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/surfpool.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/surfpool.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

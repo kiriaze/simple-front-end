@@ -1,3 +1,101 @@
 #nav {
+	float: right;
+	ul {
+		li {
+			a {
+				display: block;
+				text-transform: uppercase;
+				@include font-size(12);
+				font-weight: 600;
+				color: $navy;
+				&:hover,
+				&.active {
+					opacity: .3;
+				}
+			}
+		}
+	}
+}
+
+// responsive-nav
+.nav-collapse,
+.nav-collapse ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	float: left;
+}
+.nav-collapse {
+	ul {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: block;
+		list-style: none;
+		li {
+			width: 100%;
+			display: block;
+			margin: 0;
+			text-align: center;
+			letter-spacing: 1px;
+			a {
+				padding: 1rem 0;
+			}
+		}
+	}
+
+	.js & {
+		clip: rect(0 0 0 0);
+		max-height: 0;
+		position: absolute;
+		display: block;
+		overflow: hidden;
+	}
+
+	&.opened {
+		max-height: 9999px;
+	}
 
 }
+.disable-pointer-events {
+	pointer-events: none !important;
+}
+
+.nav-toggle {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+	user-select: none;
+	float: right;
+	font-family: $header-font;
+	@include font-size(13);
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+@include breakpoint($small) {
+	.js .nav-collapse {
+		position: relative;
+	}
+	.js .nav-collapse.closed {
+		max-height: none;
+	}
+	.nav-toggle {
+		display: none;
+	}
+	.nav-collapse {
+		width: auto;
+		ul {
+			width: auto;
+			li {
+				width: auto;
+				display: inline-block;
+				margin: 0 1rem;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+// end of responsive-nav styles

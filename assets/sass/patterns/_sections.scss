@@ -1,0 +1,132 @@
+section {
+    background: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @include breakpoint($small) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+	@include breakpoint($small) {
+	    &.half-width {
+	        .container {
+	            padding-right: 50%;
+	        }
+	    }
+	    &.three-quarter-width {
+	        .container {
+	            padding-right: 25%;
+	        }
+	    }
+	}
+
+    &.cover-bg {
+        display: block;
+        position: relative;
+        background-image: url(http://fillmurray.com/900/500);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        &:before {
+            content: '';
+            background: rgba(255,255,255,.85);
+            width : 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            z-index: 0;
+        }
+        &.contain-bg {
+        	background-size: contain;
+        	background-position: bottom center;
+        }
+        .container {
+            z-index: 1;
+        }
+    }
+
+    &.join-the-revolution {
+        background: $teal url(../images/pages/all/waveloch-cta-bg.jpg);
+        @include breakpoint($small) {
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+        }
+        h2 {
+            color: $white;
+        }
+        p {
+        	color: $secondary-color;
+        }
+        p,
+        .btn {
+            margin-top: 1rem;
+        }
+    }
+
+	&.concept-art {
+		position: relative;
+		padding: 50vw 0 0;
+		.container {
+			overflow: visible;
+			.bg-caption {
+				position: absolute;
+				bottom: 2rem;
+				right: 0;
+				color: white;
+				sup {
+					top: -.2rem;
+				}
+			}
+		}
+    }
+
+    &.surf-report {
+		@include breakpoint($small) {
+			background: url(../images/pages/home/surf-report-iphone.png) no-repeat bottom center;
+			background-size: contain;
+			padding: 5rem 0;
+		}
+		@include breakpoint($medium) {
+			padding: 8rem 0;
+			.container {
+				width: 80%;
+			}
+		}
+    }
+
+    &.padding-top-large {
+        padding-top: 30vw;
+    }
+
+    &.padding-bottom-large {
+        padding-bottom: 30vw;
+    }
+
+    &.no-padding-top {
+        padding-top: 0;
+    }
+
+    &.no-padding-bottom {
+        padding-bottom: 0;
+    }
+
+    // squiggly line headings
+    h1,
+    h2 {
+        position: relative;
+        &:before {
+            content: '';
+            background: url(../images/squiggly.png) no-repeat center top;
+            width: 52px;
+            height: 4px;
+            display: block;
+            padding-top: 1rem;
+        }
+    }
+
+	&.stripe:nth-child(odd) {
+		background-color: #f5f6f7;
+	}
+
+}

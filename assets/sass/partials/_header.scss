@@ -1,4 +1,19 @@
 // global header styles
 #header {
-
+	background: white;
+	position: relative;
+	line-height: 70px;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.06);
+	// position: fixed;
+	// z-index: 1;
+	// top: 0;
+	// right: 0;
+	// left: 0;
+	.logo {
+		float: left;
+		@include hide-text();
+		height: 70px; // height of header to vertically center
+		width: 147px;
+		background: url(../images/logo-header.png) no-repeat center;
+	}
 }

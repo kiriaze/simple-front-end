@@ -1,0 +1,29 @@
+// stats counters
+#stats {
+	padding: 5rem 0;
+	background: black;
+	overflow: hidden;
+}
+
+.stat-block {
+	@include columns(4);
+	border-right: 1px dashed #ccc;
+	&:last-of-type {
+		border: none;
+	}
+	h1 {
+		text-align: center;
+		font-size: 115px;
+		line-height: 115px;
+		color: #ffffff;
+		&:before {
+			display: none;
+		}
+	}
+	span {
+		text-align: center;
+		font-size: 13px;
+		color: #3c3d3d;
+		display: block;
+	}
+}
