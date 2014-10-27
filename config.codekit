@@ -11,15 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/about.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/css\/main-blessed1.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -364,7 +355,7 @@
 		},
 	"\/assets\/js\/plugins\/fastclick.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/fastclick.js",
 		"outputAbbreviatedPath": "\/assets\/js\/fastclick-min.js",
@@ -408,7 +399,7 @@
 		},
 	"\/assets\/js\/plugins\/jquery.fitvids.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.fitvids.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.fitvids-min.js",
@@ -419,7 +410,7 @@
 		},
 	"\/assets\/js\/plugins\/jquery.lazyload.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.lazyload.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.lazyload.min-min.js",
@@ -430,7 +421,7 @@
 		},
 	"\/assets\/js\/plugins\/jquery.magnific-popup.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.magnific-popup.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.magnific-popup.min-min.js",
@@ -441,7 +432,7 @@
 		},
 	"\/assets\/js\/plugins\/jquery.matchHeight-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.matchHeight-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.matchHeight-min-min.js",
@@ -472,9 +463,20 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/plugins\/jquery.superslides.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.superslides.js",
+		"outputAbbreviatedPath": "\/assets\/js\/jquery.superslides-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/plugins\/jquery.validate.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.validate.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.validate.min-min.js",
@@ -654,7 +656,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/owl.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/owl.css",
@@ -678,10 +680,21 @@
 		},
 	"\/assets\/js\/plugins\/owl-carousel\/owl.carousel.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/owl-carousel\/owl.carousel.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/owl.carousel.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/pace.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/pace.js",
+		"outputAbbreviatedPath": "\/assets\/js\/pace-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -700,7 +713,7 @@
 		},
 	"\/assets\/js\/plugins\/responsive-nav\/responsive-nav.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/responsive-nav\/responsive-nav.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/responsive-nav.min-min.js",
@@ -711,7 +724,7 @@
 		},
 	"\/assets\/js\/plugins\/retina.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/retina.js",
 		"outputAbbreviatedPath": "\/assets\/js\/retina-min.js",
@@ -744,7 +757,7 @@
 		},
 	"\/assets\/js\/plugins\/simpleAnchors.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/plugins\/simpleAnchors.js",
 		"outputAbbreviatedPath": "\/assets\/js\/simpleAnchors-min.js",
@@ -775,9 +788,31 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/plugins\/velocity.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/velocity.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/velocity.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/wow.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/wow.js",
+		"outputAbbreviatedPath": "\/assets\/js\/wow-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/vendor\/jquery-2.0.3.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery-2.0.3.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery-2.0.3.min-min.js",
@@ -1443,15 +1478,15 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
-	"\/assets\/sass\/patterns\/_modals.scss": {
+	"\/assets\/sass\/patterns\/_mfp-effects.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_modals.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_modals.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_mfp-effects.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_mfp-effects.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -1459,31 +1494,15 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
-	"\/assets\/sass\/patterns\/_mpf-effects.scss": {
+	"\/assets\/sass\/patterns\/_mfp.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_mpf-effects.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_mpf-effects.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 1
-		},
-	"\/assets\/sass\/patterns\/_mpf.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_mpf.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_mpf.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_mfp.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_mfp.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -1516,6 +1535,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_owl-custom.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/_owl-custom.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_pace.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_pace.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_pace.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -1612,6 +1647,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_stats.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/_stats.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/assets\/sass\/patterns\/_superslides.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/patterns\/_superslides.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_superslides.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -2819,29 +2870,11 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
-	"\/contact.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/default.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/default.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/faq.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/faq.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2876,15 +2909,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/opportunity.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/opportunity.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/pages\/404.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -2894,39 +2918,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/about.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/about.kit",
-		"outputAbbreviatedPath": "\/about.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/contact.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/contact.kit",
-		"outputAbbreviatedPath": "\/contact.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/pages\/default.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pages\/default.kit",
 		"outputAbbreviatedPath": "\/default.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/faq.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/faq.kit",
-		"outputAbbreviatedPath": "\/faq.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2948,24 +2945,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/opportunity.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/opportunity.kit",
-		"outputAbbreviatedPath": "\/opportunity.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/surfpool.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/surfpool.kit",
-		"outputAbbreviatedPath": "\/surfpool.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/pages\/type.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -2975,12 +2954,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/_footer-cta.kit": {
+	"\/partials\/_alerts.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/_footer-cta.kit",
-		"outputAbbreviatedPath": "\/_footer-cta.html",
+		"inputAbbreviatedPath": "\/partials\/_alerts.kit",
+		"outputAbbreviatedPath": "\/_alerts.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_buttons.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_buttons.kit",
+		"outputAbbreviatedPath": "\/_buttons.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_callouts.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_callouts.kit",
+		"outputAbbreviatedPath": "\/_callouts.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_foot.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_foot.kit",
+		"outputAbbreviatedPath": "\/_foot.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2993,12 +2999,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/_forms.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_forms.kit",
+		"outputAbbreviatedPath": "\/_forms.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_head.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_head.kit",
+		"outputAbbreviatedPath": "\/_head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/_header.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_header.kit",
 		"outputAbbreviatedPath": "\/_header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_hero.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_hero.kit",
+		"outputAbbreviatedPath": "\/_hero.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3013,28 +3046,46 @@
 		},
 	"\/partials\/_ie.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_ie.kit",
 		"outputAbbreviatedPath": "\/_ie.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/_image-grid-1.kit": {
+	"\/partials\/_image-grid.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/_image-grid-1.kit",
-		"outputAbbreviatedPath": "\/_image-grid-1.html",
+		"inputAbbreviatedPath": "\/partials\/_image-grid.kit",
+		"outputAbbreviatedPath": "\/_image-grid.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/_image-grid-2.kit": {
+	"\/partials\/_media.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/_image-grid-2.kit",
-		"outputAbbreviatedPath": "\/_image-grid-2.html",
+		"inputAbbreviatedPath": "\/partials\/_media.kit",
+		"outputAbbreviatedPath": "\/_media.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_mfp.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_mfp.kit",
+		"outputAbbreviatedPath": "\/_mfp.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_notes.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_notes.kit",
+		"outputAbbreviatedPath": "\/_notes.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3047,12 +3098,57 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/_prettify.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_prettify.kit",
+		"outputAbbreviatedPath": "\/_prettify.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_stats.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_stats.kit",
+		"outputAbbreviatedPath": "\/_stats.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_tabs-toggles.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_tabs-toggles.kit",
+		"outputAbbreviatedPath": "\/_tabs-toggles.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_ticker.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_ticker.kit",
+		"outputAbbreviatedPath": "\/_ticker.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/_typekit.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_typekit.kit",
 		"outputAbbreviatedPath": "\/_typekit.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_typography.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_typography.kit",
+		"outputAbbreviatedPath": "\/_typography.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3077,15 +3173,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/surfpool.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/surfpool.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/type.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -3102,8 +3189,8 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"bowerAbbreviatedPath": "",
-	"displayValue": "waveloch-raw",
+	"bowerAbbreviatedPath": "assets",
+	"displayValue": "simple-html",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_darkGray"
 	},

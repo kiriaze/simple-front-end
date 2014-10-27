@@ -10,6 +10,7 @@
     // box-sizing: content-box; // to work with borders
 
     -webkit-appearance: none; // for strange mobile rendering
+    transform: translateZ(0); // for when within elements that are being transformed
 
     // override <button>'s
     border: none;

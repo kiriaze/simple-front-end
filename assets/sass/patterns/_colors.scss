@@ -1,5 +1,4 @@
 /*
-
    SKINS
    - Backgrounds
    - Colors
@@ -8,6 +7,30 @@
    - SVG Strokes
 
 */
+
+// NOTICE: maps dont work with libsass as of 10.25.14
+// $vars set in _base.scss
+$colors: (
+	'aqua'		$aqua,
+	'blue'		$blue,
+	'navy'		$navy,
+	'teal'		$teal,
+	'green'		$green,
+	'seafoam'	$seafoam,
+	'olive'		$olive,
+	'lime'		$lime,
+	'yellow'	$yellow,
+	'orange'	$orange,
+	'red'		$red,
+	'fuchsia'	$fuchsia,
+	'purple'	$purple,
+	'maroon'	$maroon,
+	'white'		$white,
+	'gray'		$gray,
+	'silver'	$silver,
+	'black'		$black,
+	'default'	$default
+);
 
 /* Backgrounds */
 
@@ -28,6 +51,9 @@
 }
 .bg-green {
     background-color: $green;
+}
+.bg-seafoam {
+    background-color: $seafoam;
 }
 .bg-lime {
     background-color: $lime;
@@ -62,6 +88,9 @@
 .bg-black {
     background-color: $black;
 }
+.bg-default {
+    background-color: $default;
+}
 
 
 /* Colors */
@@ -83,6 +112,9 @@
 }
 .green {
     color: $green;
+}
+.seafoam {
+    color: $seafoam;
 }
 .lime {
     color: $lime;
@@ -117,15 +149,12 @@
 .black {
     color: $black;
 }
+.default {
+    color: $default;
+}
 
 
-/* Border colors
-
-    Use with another border utility that sets border-width and style
-    i.e .border {
-        border-width: 1px; border-style: solid;
-    }
-*/
+/* Border colors */
 
 .border--navy {
     border-color: $navy;
@@ -144,6 +173,9 @@
 }
 .border--green {
     border-color: $green;
+}
+.border--seafoam {
+	border-color: $seafoam;
 }
 .border--lime {
     border-color: $lime;
@@ -178,6 +210,9 @@
 .border--black {
     border-color: $black;
 }
+.border--default {
+    border-color: $default;
+}
 
 
 /* Fills for SVG */
@@ -199,6 +234,9 @@
 }
 .fill-green {
     fill: $green;
+}
+.fill-seafoam {
+	fill: $seafoam;
 }
 .fill-lime {
     fill: $lime;
@@ -233,6 +271,9 @@
 .fill-black {
     fill: $black;
 }
+.fill-default {
+    fill: $default;
+}
 
 /* Strokes for SVG */
 
@@ -253,6 +294,9 @@
 }
 .stroke-green {
     stroke: $green;
+}
+.stroke-seafoam {
+	stroke: $seafoam;
 }
 .stroke-lime {
     stroke: $lime;
@@ -286,4 +330,7 @@
 }
 .stroke-black {
     stroke: $black;
+}
+.stroke-default {
+    stroke: $default;
 }

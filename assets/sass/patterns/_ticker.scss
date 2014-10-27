@@ -22,12 +22,12 @@ $tickerHeight: 50px;
 	margin: 0;
 	> * {
 		padding: 0;
+		margin: 0;
 		text-transform: uppercase;
 		letter-spacing: .15em;
 		font-weight: 800;
 		line-height: $tickerHeight;
 		font-size: 3rem;
-		// color: white;
 	}
 }
 

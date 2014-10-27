@@ -6,92 +6,18 @@
 	}
 }
 
-.contact-page {
-	section {
-		background: url(../images/pages/surfpool/x-series-bw.jpg) no-repeat center;
-		background-size: cover;
-		p {
-			@include font-size(13);
-			font-weight: 600;
-			display: block;
-			margin-top: 1.5rem;
-			line-height: 1.5;
-			color: $white;
-		}
-	}
-	#contactForm {
-		input:not([type="submit"]),
-		textarea {
-			background: transparent;
-			color: $white;
-			border-radius: 0;
-			border-width: 2px;
-			font-family: $header-font;
-		}
-		label {
-			font-family: $header-font;
-			text-transform: uppercase;
-			font-weight: 600;
-			color: $white;
-		}
-		label[for="contactForm-checkbox"] {
-			text-transform: none;
-			@include font-size(12);
-			display: inline;
-		}
-	}
-}
-
-
-.simple-toggle .simple-toggle-title,
-.simple-toggle .simple-accordion-title,
-.simple-accordion .simple-toggle-title,
-.simple-accordion .simple-accordion-title {
-	border-right: 0;
-	border-top: 1px solid $theme-color;
-
-	padding: 2rem 3rem 2rem 1rem;
-
-	font-family: $header-font;
-	@include font-size(24);
-	line-height: 23pt;
-	font-weight: 600;
-	color: $theme-color;
-	letter-spacing: -1px;
-	margin: 0;
-
-	&:hover,
-	&.ui-state-active {
-		color: $secondary-color;
-	}
-}
-.simple-toggle .target,
-.simple-accordion .target {
-	padding: 2rem 1rem 1rem;
-	p {
-		font-family: $header-font;
-		color: $secondary-color;
+#simple-grid {
+	[class*='#{$column-class}-'] {
+		background: $yellow; // testing purposes
+		padding: 1.5rem 0;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
 		font-weight: 600;
-	}
-}
-.simple-toggle span.ui-icon,
-.simple-accordion span.ui-icon {
-	top: 0;
-	right: 0;
-	height: 70px;
-	width: 50px;
-	background: $theme-color;
-	&:before {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		@include font-size(35);
-		color: $secondary-color;
+		text-align: center;
 	}
 }
 
-// faq bottom of page
+// cta text w/ button
 .cta-more {
 	overflow: hidden;
 	margin: 2rem 0 0;

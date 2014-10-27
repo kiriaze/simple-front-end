@@ -11,6 +11,10 @@
 // @codekit-prepend 'plugins/simpleforms.min.js'
 // @codekit-prepend 'plugins/prettify.js'
 
+// 'plugins/smoothscroll.js'
+
+// @codekit-prepend 'plugins/velocity.min.js'
+
 // @codekit-prepend 'plugins/signet.min.js'
 
 // @codekit-prepend 'plugins/responsive-nav/responsive-nav.min.js'
@@ -20,6 +24,10 @@
 // @codekit-prepend 'plugins/jquery.magnific-popup.min.js'
 // @codekit-prepend 'plugins/jquery.stellar.min.js'
 // @codekit-prepend 'plugins/jquery.photoset-grid.min.js'
+
+// @codekit-prepend 'plugins/pace.js'
+// @codekit-prepend 'plugins/jquery.superslides.js'
+// @codekit-prepend 'plugins/wow.js'
 
 // @codekit-prepend 'plugins/infinite-scroll/jquery.infinitescroll.min.js'
 // @codekit-prepend 'plugins/infinite-scroll/manual-trigger.js'
@@ -58,7 +66,6 @@
 		SHORTNAME.toggles();
 		SHORTNAME.accordions();
 		SHORTNAME.tabs();
-		SHORTNAME.modal();
 		SHORTNAME.mediaElements();
 		SHORTNAME.magnificPopup();
 		SHORTNAME.stats();
@@ -82,11 +89,7 @@
 		SHORTNAME.elems.cover				=	$('.parallax');
 		SHORTNAME.elems.mobileNav			=	$('.nav-collapse');
 
-
-
-
 		SHORTNAME.elems.tooltip            =   $('[data-toggle=tooltip]');
-		SHORTNAME.elems.modalLink          =   $('[data-modal]');
 		SHORTNAME.elems.tab                =   $('[data-tab]');
 		SHORTNAME.elems.mediaElements      =   $('[data-media-src]');
 		SHORTNAME.elems.toggles            =   $('.simple-toggle');
@@ -165,11 +168,24 @@
 		$('body').simpleforms();
 
 		// prettyprint
+		$('pre').addClass('prettyprint');
 		prettyPrint();
 
 		// simpleMedia init
 		SHORTNAME.elems.mediaElements.simpleMedia();
 
+		// superslides
+		$('#slides').superslides();
+
+		// wow
+		// <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"></section>
+		// <section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10"></section>
+		var wow = new WOW({
+			boxClass:     'wow',      // default
+			animateClass: 'animated', // default
+			offset:       0          // default
+		})
+		wow.init();
 
 	};
 
@@ -293,39 +309,6 @@
 				.addClass('active')
 				.siblings('[data-tab-content]')
 				.removeClass('active');
-
-		});
-	};
-
-	SHORTNAME.modal = function(){
-
-		if ( !SHORTNAME.elems.modalLink.length ) return;
-
-		SHORTNAME.elems.modalLink.on('click', function(){
-
-			var $this           = $(this),
-				modalOpen       = $this.data('modal'),
-				modalTarget     = $('[data-modal-id=' + modalOpen + ']'),
-				modalClose      = modalTarget.find('[data-modal-trigger="close"]');
-
-			// Show Modal
-			modalTarget.addClass('visible');
-			modalTarget.attr('data-modal-status','visible');
-
-			$(modalTarget).on('click', function(e){
-				// Check if whats being clicked on is the overlay, not the modal itself
-				if ( e.target === modalTarget.get(0) ) {
-					// Hide Modal
-					$(this).removeClass('visible');
-					$(this).attr('data-modal-status','');
-				}
-			});
-
-			modalClose.on('click',function(){
-				// Hide Modal
-				modalTarget.removeClass('visible');
-				modalTarget.attr('data-modal-status','');
-			});
 
 		});
 	};
@@ -546,7 +529,9 @@
 	SHORTNAME.pageTransitions = function() {
 
 		// fade transition navigation thru site
-		SHORTNAME.elems.body.addClass('fadeIn');
+
+		// SHORTNAME.elems.body.hide().addClass('fadeIn');
+
 		SHORTNAME.elems.body.on('click', 'a:not([href^="#"]):not([data-scroll-to]):not([data-type*="mfp-"])', function(e) {
 
 			e.preventDefault();
@@ -720,7 +705,7 @@
 	});
 
 	$window.resize(function(event) {
-		// SHORTNAME.widowFix();
+		SHORTNAME.vertAlign();
 	});
 
 	$(document).ready(function(){

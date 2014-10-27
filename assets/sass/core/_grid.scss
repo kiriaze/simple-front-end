@@ -154,7 +154,8 @@ $gridDebug: false !default;
 	@if( $gridDebug == true ) {
 		background: $yellow; // testing purposes
 		padding: 1.5rem 0;
-		margin: 0.5rem 0;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
 		font-weight: 600;
 		text-align: center;
 	}
