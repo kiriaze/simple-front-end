@@ -159,7 +159,35 @@
 		SHORTNAME.elems.body.fitVids();
 
 		// Stellar parallax
-		$.stellar();
+		// $.stellar();
+
+		// stellar setting
+		$.stellar.positionProperty.position = {
+
+		    setTop: function($element, newTop, originalTop) {
+		        $element.css('top', newTop);
+		        if ( $element.hasClass("para-opacity") ) {
+		            var rate = $(window).height() / 1.5;
+		            $element.css('opacity', 1 - (newTop / rate));
+		        }
+		    },
+		    setLeft: function($element, newLeft, originalLeft) {
+		        $element.css('left', newLeft);
+		    }
+
+		}
+		// running only in desktop
+		if ( Modernizr.touch ) {
+		    //add class no-para for body in touch device
+		    $("body").addClass('no-para');
+		} else {
+		    $(window).stellar({
+		        horizontalScrolling: false,
+		        hideDistantElements: false,
+		        responsive: true
+		    });
+		}
+
 
 		// set image-grid columns to equal size
 		$('.image-grid').find('[class^="columns-"]').matchHeight();

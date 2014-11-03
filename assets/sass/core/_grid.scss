@@ -29,6 +29,32 @@
 	.columns-2, .columns-2
 	.columns-4, .columns-4, .columns-4, .columns-4
 
+
+
+differences between old/new
+old:
+	just works
+		caveat
+			mixing columns on site with different gutters
+new:
+	similar to bootstrap, gutter becomes the space between columns * 2,
+	first and last column in rows are snug,
+	and column classes need to be attached to parent containers; e.g. below, and style the elemnts within the columns classes
+	<div class="container">
+		<div class="row">
+			<div class="columns-70">
+				<article>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem architecto ipsam dolores ea quas ut dolorem libero reprehenderit est quibusdam ex aperiam, distinctio natus impedit mollitia veniam repellendus commodi atque!
+				</article>
+			</div>
+			<div class="columns-30">
+				<aside>
+					sidebar
+				</aside>
+			</div>
+		</div>
+	</div>
+
 ============================================ */
 
 //-------------------------------------------------------
@@ -67,30 +93,63 @@ $gridDebug: false !default;
 
 @mixin set-gutter($gutter) {
 	@include breakpoint($small) {
+		// old
 		margin-left: -$gutter;
 		margin-right: -$gutter;
 		padding-left: $gutter;
+
+		// // new
+		// margin-left:  ($gutter / -2);
+		// margin-right: ($gutter / -2);
+
+		@include clearfix();
 	}
 }
 
-@mixin grid() {
-	@include set-gutter($gutter);
-	@include clearfix;
+// Centered container element
+@mixin container-fixed($gutter: $gutter) {
+	position: relative;
+    overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+
+	// new
+	// padding-left:  ($gutter / 2);
+	// padding-right: ($gutter / 2);
+
+	@include clearfix();
+}
+
+@mixin grid( $display: float ) {
+
+	box-sizing: border-box;
+
+	@if( $display == 'ib' ) {
+		font-size: 0px;
+		text-align: justify;
+		&:after {
+			content: '';
+			display: inline-block;
+			width: 100%;
+		}
+	} @else {
+		@include set-gutter($gutter);
+	}
 }
 
 @mixin column() {
-	float: left;
-	width: 100%;
 	box-sizing: border-box;
+	width: 100%;
 }
 
-@mixin columns($num) {
+@mixin columns($num, $display: float, $gutter: $gutter) {
 
 	@include column();
 
 	// Note: never wrap this with a breakpoint to allow it being wrapped in other styles.
 	// e.g. #elem { @include breakpoint($small) { @include columns(2); } }
 
+	// old
 	@if ( round($num) == $num ) {
 		// if whole number for even # cols
 		width: column-width($num, $docWidth) - $gutter;
@@ -98,8 +157,40 @@ $gridDebug: false !default;
 		// for mixed width cols, data-columns=".3"
 		width: ($num * $docWidth) - $gutter;
 	}
+	@if( $display == 'ib' ) {
+		@extend %ib;
+		font-size: initial;
+	} @else {
+		margin-right: $gutter;
+		float: left;
+	}
 
-	margin-right: $gutter;
+	// new
+	// @if( $display == 'ib' ) {
+	// 	@extend %ib;
+	// 	font-size: initial;
+	// 	@if ( round($num) == $num ) {
+	// 		// if whole number for even # cols
+	// 		width: column-width($num, $docWidth) - $gutter;
+	// 	} @else {
+	// 		// for mixed width cols, data-columns=".3"
+	// 		width: ($num * $docWidth) - $gutter;
+	// 	}
+	// } @else {
+	// 	float: left;
+
+	// 	@if ( round($num) == $num ) {
+	// 		// if whole number for even # cols
+	// 		width: (strip-unit($docWidth / $num)) * 1%;
+	// 	} @else {
+	// 		// for mixed width cols, data-columns=".3"
+	// 		width: ($num * $docWidth);
+	// 	}
+	// 	position: relative;
+	// 	min-height: 1px;
+	// 	padding-left:  ($gutter / 2);
+	// 	padding-right: ($gutter / 2);
+	// }
 }
 
 @mixin third($num) {
@@ -138,6 +229,22 @@ $gridDebug: false !default;
 //-------------------------------------------------------
 // CLASS AND DATA DELEGATIONS
 //-------------------------------------------------------
+.container {
+
+	@include container-fixed();
+
+	// fluid grid, but fixed responsiveness - container fixedwidth with breakpoints
+	@include breakpoint($small) {
+		width: $small;
+	}
+	@include breakpoint($medium) {
+		width: $medium;
+	}
+	@include breakpoint($large) {
+		width: $large;
+	}
+
+}
 
 [class~='#{$container-class}'],
 [data-layout='grid'] {
@@ -153,7 +260,8 @@ $gridDebug: false !default;
 [class*='#{$column-class}-'] {
 	@if( $gridDebug == true ) {
 		background: $yellow; // testing purposes
-		padding: 1.5rem 0;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
 		margin-top: 0.5rem;
 		margin-bottom: 0.5rem;
 		font-weight: 600;

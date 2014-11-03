@@ -11,6 +11,8 @@ body{
 
 }
 
+
+
 .container,
 #header,
 #footer {
@@ -23,17 +25,19 @@ body{
 }
 
 .container {
-    width: 90%;
-    max-width: 1440px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
+
 }
 
+// [text_columns col="2"]Your text here[/text_columns]
 .text-columns {
 	@include breakpoint($small) {
 		column-count: 2;
 	}
+}
+
+// stellar
+.stellar {
+	background: url(../images/parallax_bg.jpg) repeat center center scroll;
 }
 
 .dark {

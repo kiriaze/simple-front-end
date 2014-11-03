@@ -510,7 +510,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_mixins.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -526,7 +526,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_owl-animate.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -542,7 +542,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_owl-autoheight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -558,7 +558,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_owl-carousel.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -574,7 +574,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_owl-lazyload.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -590,7 +590,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_owl-theme-default.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -606,7 +606,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_owl-theme-green.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -622,7 +622,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_owl-video.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -638,7 +638,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/_theme.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -654,7 +654,7 @@
 	"\/assets\/js\/plugins\/owl-carousel\/assets\/scss\/owl.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -857,7 +857,7 @@
 	"\/assets\/sass\/_base.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -873,7 +873,7 @@
 	"\/assets\/sass\/core\/_core.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -889,7 +889,7 @@
 	"\/assets\/sass\/core\/_fonts.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -905,7 +905,7 @@
 	"\/assets\/sass\/core\/_grid.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -921,7 +921,7 @@
 	"\/assets\/sass\/core\/_typography.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -937,7 +937,7 @@
 	"\/assets\/sass\/defaults\/_defaults.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -953,7 +953,7 @@
 	"\/assets\/sass\/defaults\/_helpers.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -969,7 +969,7 @@
 	"\/assets\/sass\/defaults\/_ie.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -985,7 +985,7 @@
 	"\/assets\/sass\/defaults\/_placeholders.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1001,7 +1001,7 @@
 	"\/assets\/sass\/defaults\/_reset.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1017,7 +1017,7 @@
 	"\/assets\/sass\/main.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -1033,7 +1033,7 @@
 	"\/assets\/sass\/mixins\/_border-radius.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1049,7 +1049,7 @@
 	"\/assets\/sass\/mixins\/_breakpoints.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1065,7 +1065,7 @@
 	"\/assets\/sass\/mixins\/_buttons.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1081,7 +1081,7 @@
 	"\/assets\/sass\/mixins\/_font-size.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1097,7 +1097,7 @@
 	"\/assets\/sass\/mixins\/_justVertHeader.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1113,7 +1113,7 @@
 	"\/assets\/sass\/mixins\/_mixins.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1129,7 +1129,7 @@
 	"\/assets\/sass\/mixins\/_sticky-footer.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1145,7 +1145,7 @@
 	"\/assets\/sass\/pages\/_home.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1161,7 +1161,7 @@
 	"\/assets\/sass\/pages\/_pages.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1177,7 +1177,7 @@
 	"\/assets\/sass\/partials\/_footer.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1193,7 +1193,7 @@
 	"\/assets\/sass\/partials\/_header.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1209,7 +1209,7 @@
 	"\/assets\/sass\/partials\/_layout.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1225,7 +1225,7 @@
 	"\/assets\/sass\/partials\/_main.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1241,7 +1241,7 @@
 	"\/assets\/sass\/partials\/_nav.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1257,7 +1257,7 @@
 	"\/assets\/sass\/partials\/_sidebar.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1273,7 +1273,7 @@
 	"\/assets\/sass\/patterns\/_alerts.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1289,7 +1289,7 @@
 	"\/assets\/sass\/patterns\/_blocks.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1305,7 +1305,7 @@
 	"\/assets\/sass\/patterns\/_buttons.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1321,7 +1321,7 @@
 	"\/assets\/sass\/patterns\/_callouts.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1337,7 +1337,7 @@
 	"\/assets\/sass\/patterns\/_colors.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1353,7 +1353,7 @@
 	"\/assets\/sass\/patterns\/_forms.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1369,7 +1369,7 @@
 	"\/assets\/sass\/patterns\/_hero.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1385,7 +1385,7 @@
 	"\/assets\/sass\/patterns\/_html5-video.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1401,7 +1401,7 @@
 	"\/assets\/sass\/patterns\/_icons.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1417,7 +1417,7 @@
 	"\/assets\/sass\/patterns\/_image-filters.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1433,7 +1433,7 @@
 	"\/assets\/sass\/patterns\/_image-grid.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1449,7 +1449,7 @@
 	"\/assets\/sass\/patterns\/_lists.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1465,7 +1465,7 @@
 	"\/assets\/sass\/patterns\/_media-elements.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1481,7 +1481,7 @@
 	"\/assets\/sass\/patterns\/_mfp-effects.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1497,7 +1497,7 @@
 	"\/assets\/sass\/patterns\/_mfp.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1513,7 +1513,7 @@
 	"\/assets\/sass\/patterns\/_notes.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1529,7 +1529,7 @@
 	"\/assets\/sass\/patterns\/_owl-custom.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1545,7 +1545,7 @@
 	"\/assets\/sass\/patterns\/_pace.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1561,7 +1561,7 @@
 	"\/assets\/sass\/patterns\/_parallax.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1577,7 +1577,7 @@
 	"\/assets\/sass\/patterns\/_patterns.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1593,7 +1593,7 @@
 	"\/assets\/sass\/patterns\/_prettyprint.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1609,7 +1609,7 @@
 	"\/assets\/sass\/patterns\/_sections.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1625,7 +1625,7 @@
 	"\/assets\/sass\/patterns\/_shame.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1641,7 +1641,7 @@
 	"\/assets\/sass\/patterns\/_stats.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1657,7 +1657,7 @@
 	"\/assets\/sass\/patterns\/_superslides.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1673,7 +1673,7 @@
 	"\/assets\/sass\/patterns\/_tables.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1689,7 +1689,7 @@
 	"\/assets\/sass\/patterns\/_tabs.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1705,7 +1705,7 @@
 	"\/assets\/sass\/patterns\/_ticker.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1721,7 +1721,7 @@
 	"\/assets\/sass\/patterns\/_toggles-accordions.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1737,7 +1737,7 @@
 	"\/assets\/sass\/patterns\/_tooltips.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1753,7 +1753,7 @@
 	"\/assets\/sass\/patterns\/_typography.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1769,7 +1769,7 @@
 	"\/assets\/sass\/vendor\/_vendor.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1785,7 +1785,7 @@
 	"\/assets\/sass\/vendor\/animate\/_animate.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1801,7 +1801,7 @@
 	"\/assets\/sass\/vendor\/animate\/_properties.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1817,7 +1817,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounce.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1833,7 +1833,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceIn.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1849,7 +1849,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceInDown.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1865,7 +1865,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceInLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1881,7 +1881,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceInRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1897,7 +1897,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceInUp.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1913,7 +1913,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOut.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1929,7 +1929,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOutDown.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1945,7 +1945,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOutLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1961,7 +1961,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOutRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1977,7 +1977,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_bounceOutUp.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1993,7 +1993,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeIn.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2009,7 +2009,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInDown.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2025,7 +2025,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInDownBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2041,7 +2041,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2057,7 +2057,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInLeftBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2073,7 +2073,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2089,7 +2089,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInRightBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2105,7 +2105,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInScale.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2121,7 +2121,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInScaleBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2137,7 +2137,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInUp.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2153,7 +2153,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeInUpBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2169,7 +2169,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOut.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2185,7 +2185,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutDown.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2201,7 +2201,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutDownBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2217,7 +2217,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2233,7 +2233,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutLeftBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2249,7 +2249,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2265,7 +2265,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutRightBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2281,7 +2281,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutScale.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2297,7 +2297,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutScaleBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2313,7 +2313,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutUp.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2329,7 +2329,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_fadeOutUpBig.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2345,7 +2345,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_flash.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2361,7 +2361,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_flip.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2377,7 +2377,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_flipInX.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2393,7 +2393,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_flipInY.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2409,7 +2409,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_flipOutX.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2425,7 +2425,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_flipOutY.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2441,7 +2441,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_hinge.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2457,7 +2457,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_lightSpeedIn.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2473,7 +2473,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_lightSpeedOut.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2489,7 +2489,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_pulse.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2505,7 +2505,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rollIn.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2521,7 +2521,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rollOut.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2537,7 +2537,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateIn.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2553,7 +2553,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateInDownLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2569,7 +2569,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateInDownRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2585,7 +2585,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateInUpLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2601,7 +2601,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateInUpRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2617,7 +2617,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOut.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2633,7 +2633,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOutDownLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2649,7 +2649,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOutDownRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2665,7 +2665,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOutUpLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2681,7 +2681,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_rotateOutUpRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2697,7 +2697,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_shake.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2713,7 +2713,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideInDown.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2729,7 +2729,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideInLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2745,7 +2745,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideInRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2761,7 +2761,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideOutLeft.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2777,7 +2777,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideOutRight.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2793,7 +2793,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_slideOutUp.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2809,7 +2809,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_swing.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2825,7 +2825,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_tada.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2841,7 +2841,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_wiggle.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -2857,7 +2857,7 @@
 	"\/assets\/sass\/vendor\/animate\/animations\/_wobble.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 3,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -3329,7 +3329,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/wordpress.dev\/",
+	"externalServerAddress": "http:\/\/simple-html.dev\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
@@ -3774,7 +3774,7 @@
 	"sassAutoOutputPathStyle": 1,
 	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
-	"sassDecimalPrecision": 5,
+	"sassDecimalPrecision": 3,
 	"sassOutputStyle": 3,
 	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 1,

@@ -6,14 +6,41 @@
 	}
 }
 
-#simple-grid {
-	[class*='#{$column-class}-'] {
-		background: $yellow; // testing purposes
+.test {
+	background: red;
+}
+
+.columns-30,
+.columns-70 {
+
+}
+article {
+	background: green;
+	padding: 1rem;
+}
+aside {
+	background: purple;
+	padding: 1rem;
+}
+
+
+// grid ib
+.ib {
+	@include grid(ib);
+	li {
+		width: 100%;
+
+		// testing purposes
+		background: $yellow;
 		padding: 1.5rem 0;
-		margin-top: 0.5rem;
-		margin-bottom: 0.5rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 		font-weight: 600;
 		text-align: center;
+
+		@include breakpoint($small) {
+			@include columns(6, ib, $gutter: 2%);
+		}
 	}
 }
 
