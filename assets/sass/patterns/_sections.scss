@@ -63,6 +63,11 @@ section {
         padding-bottom: 0;
     }
 
+    &.no-padding {
+    	padding-top: 0;
+    	padding-bottom: 0;
+    }
+
 	&.stripe:nth-child(even) {
 		background-color: #f5f6f7;
 	}

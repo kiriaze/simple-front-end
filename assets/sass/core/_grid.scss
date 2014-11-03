@@ -29,32 +29,6 @@
 	.columns-2, .columns-2
 	.columns-4, .columns-4, .columns-4, .columns-4
 
-
-
-differences between old/new
-old:
-	just works
-		caveat
-			mixing columns on site with different gutters
-new:
-	similar to bootstrap, gutter becomes the space between columns * 2,
-	first and last column in rows are snug,
-	and column classes need to be attached to parent containers; e.g. below, and style the elemnts within the columns classes
-	<div class="container">
-		<div class="row">
-			<div class="columns-70">
-				<article>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem architecto ipsam dolores ea quas ut dolorem libero reprehenderit est quibusdam ex aperiam, distinctio natus impedit mollitia veniam repellendus commodi atque!
-				</article>
-			</div>
-			<div class="columns-30">
-				<aside>
-					sidebar
-				</aside>
-			</div>
-		</div>
-	</div>
-
 ============================================ */
 
 //-------------------------------------------------------
@@ -93,12 +67,12 @@ $gridDebug: false !default;
 
 @mixin set-gutter($gutter) {
 	@include breakpoint($small) {
-		// old
-		margin-left: -$gutter;
-		margin-right: -$gutter;
-		padding-left: $gutter;
+		// v.1
+		margin-left: -$gutter/2;
+		margin-right: -$gutter/2;
+		padding-left: $gutter/2;
 
-		// // new
+		// // v.2
 		// margin-left:  ($gutter / -2);
 		// margin-right: ($gutter / -2);
 
@@ -107,20 +81,22 @@ $gridDebug: false !default;
 }
 
 // Centered container element
-@mixin container-fixed($gutter: $gutter) {
+@mixin container-fixed($gutter: $gutter, $padded: false) {
 	position: relative;
     overflow: hidden;
 	margin-right: auto;
 	margin-left: auto;
 
-	// new
-	// padding-left:  ($gutter / 2);
-	// padding-right: ($gutter / 2);
+	// so edges always have space
+	@if ( $padded == true ) {
+		padding-left:  ($gutter / 2);
+		padding-right: ($gutter / 2);
+	}
 
 	@include clearfix();
 }
 
-@mixin grid( $display: float ) {
+@mixin grid( $display: float, $gutter: $gutter ) {
 
 	box-sizing: border-box;
 
@@ -139,6 +115,8 @@ $gridDebug: false !default;
 
 @mixin column() {
 	box-sizing: border-box;
+	position: relative;
+	min-height: 1px;
 	width: 100%;
 }
 
@@ -149,26 +127,49 @@ $gridDebug: false !default;
 	// Note: never wrap this with a breakpoint to allow it being wrapped in other styles.
 	// e.g. #elem { @include breakpoint($small) { @include columns(2); } }
 
-	// old
+	// v.1
 	@if ( round($num) == $num ) {
+
 		// if whole number for even # cols
-		width: column-width($num, $docWidth) - $gutter;
+		width: column-width($num, $docWidth) - $gutter/2;
+
+		.no-gutter & {
+			width: column-width($num, $docWidth);
+		}
+
 	} @else {
+
 		// for mixed width cols, data-columns=".3"
-		width: ($num * $docWidth) - $gutter;
-	}
-	@if( $display == 'ib' ) {
-		@extend %ib;
-		font-size: initial;
-	} @else {
-		margin-right: $gutter;
-		float: left;
+		width: ($num * $docWidth) - $gutter/2;
+
+		.no-gutter & {
+			width: ($num * $docWidth);
+		}
+
 	}
 
-	// new
+	@if( $display == 'ib' ) {
+
+		@extend %ib;
+		font-size: initial;
+
+	} @else {
+
+		float: left;
+		margin-right: $gutter/2;
+
+		.no-gutter & {
+			margin-right: 0;
+		}
+
+	}
+
+	// // v.2
 	// @if( $display == 'ib' ) {
+
 	// 	@extend %ib;
 	// 	font-size: initial;
+
 	// 	@if ( round($num) == $num ) {
 	// 		// if whole number for even # cols
 	// 		width: column-width($num, $docWidth) - $gutter;
@@ -176,7 +177,10 @@ $gridDebug: false !default;
 	// 		// for mixed width cols, data-columns=".3"
 	// 		width: ($num * $docWidth) - $gutter;
 	// 	}
-	// } @else {
+
+	// }
+	// @else {
+
 	// 	float: left;
 
 	// 	@if ( round($num) == $num ) {
@@ -186,11 +190,16 @@ $gridDebug: false !default;
 	// 		// for mixed width cols, data-columns=".3"
 	// 		width: ($num * $docWidth);
 	// 	}
-	// 	position: relative;
-	// 	min-height: 1px;
+
 	// 	padding-left:  ($gutter / 2);
 	// 	padding-right: ($gutter / 2);
+
+	// 	.no-gutter & {
+	// 		padding-left:  0;
+	// 		padding-right: 0;
+	// 	}
 	// }
+
 }
 
 @mixin third($num) {
@@ -256,7 +265,6 @@ $gridDebug: false !default;
 	}
 
 }
-
 [class*='#{$column-class}-'] {
 	@if( $gridDebug == true ) {
 		background: $yellow; // testing purposes
@@ -270,22 +278,9 @@ $gridDebug: false !default;
 }
 
 // find a way to reset the value of gutter to also apply to columns etc..
-.xlarge-gutter {
-	@include set-gutter($gutter*3);
-}
-
-.large-gutter {
-	@include set-gutter($gutter*2);
-}
-
-.half-gutter {
-	@include set-gutter($gutter/2);
-}
-
 .no-gutter {
 	@include set-gutter(0);
 }
-
 .reset-gutter {
 	@include set-gutter($gutter);
 }

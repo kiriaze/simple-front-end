@@ -6,21 +6,19 @@
 	}
 }
 
-.test {
-	background: red;
-}
-
-.columns-30,
-.columns-70 {
-
-}
 article {
-	background: green;
+	background: $green;
 	padding: 1rem;
 }
+
 aside {
-	background: purple;
+	background: $purple;
 	padding: 1rem;
+}
+
+// hack for gutters in grid/row of full width sections
+section {
+	overflow: hidden;
 }
 
 
