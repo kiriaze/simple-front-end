@@ -67,14 +67,10 @@ $gridDebug: false !default;
 
 @mixin set-gutter($gutter) {
 	@include breakpoint($small) {
-		// v.1
+
 		margin-left: -$gutter/2;
 		margin-right: -$gutter/2;
 		padding-left: $gutter/2;
-
-		// // v.2
-		// margin-left:  ($gutter / -2);
-		// margin-right: ($gutter / -2);
 
 		@include clearfix();
 	}
@@ -127,7 +123,6 @@ $gridDebug: false !default;
 	// Note: never wrap this with a breakpoint to allow it being wrapped in other styles.
 	// e.g. #elem { @include breakpoint($small) { @include columns(2); } }
 
-	// v.1
 	@if ( round($num) == $num ) {
 
 		// if whole number for even # cols
@@ -163,42 +158,6 @@ $gridDebug: false !default;
 		}
 
 	}
-
-	// // v.2
-	// @if( $display == 'ib' ) {
-
-	// 	@extend %ib;
-	// 	font-size: initial;
-
-	// 	@if ( round($num) == $num ) {
-	// 		// if whole number for even # cols
-	// 		width: column-width($num, $docWidth) - $gutter;
-	// 	} @else {
-	// 		// for mixed width cols, data-columns=".3"
-	// 		width: ($num * $docWidth) - $gutter;
-	// 	}
-
-	// }
-	// @else {
-
-	// 	float: left;
-
-	// 	@if ( round($num) == $num ) {
-	// 		// if whole number for even # cols
-	// 		width: (strip-unit($docWidth / $num)) * 1%;
-	// 	} @else {
-	// 		// for mixed width cols, data-columns=".3"
-	// 		width: ($num * $docWidth);
-	// 	}
-
-	// 	padding-left:  ($gutter / 2);
-	// 	padding-right: ($gutter / 2);
-
-	// 	.no-gutter & {
-	// 		padding-left:  0;
-	// 		padding-right: 0;
-	// 	}
-	// }
 
 }
 

@@ -203,7 +203,17 @@
 		SHORTNAME.elems.mediaElements.simpleMedia();
 
 		// superslides
-		$('#slides').superslides();
+		$('#slides').superslides({
+			// play: 0,	// [number] Milliseconds before progressing to next slide automatically. Use a falsey value to disable.
+			animation: 'fade',	// [string] slide or fade. This matches animations defined by fx engine.
+			// animation_speed: 'normal',	// [string] Animation speed.
+			// animation_easing: 'linear',	// [string] Animation easing.
+			// inherit_width_from: window,	// [object] or [string] Accepts window or element selector. Use to constrain slider to an element's width.
+			// inherit_height_from: window,	// [object] or [string] Accepts window or element selector. Use to constrain slider to an element's height.
+			// pagination: true,	// [boolean] Generate pagination. Add an id to your slide to use custom pagination on that slide.
+			// hashchange: false,	// [boolean] Enable hashchange support in url.
+			// elements: '',	// [object] A hash of element classes used in generated html.
+		});
 
 		// wow
 		// <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"></section>
