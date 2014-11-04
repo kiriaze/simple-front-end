@@ -3189,7 +3189,7 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"bowerAbbreviatedPath": "assets",
+	"bowerAbbreviatedPath": "",
 	"displayValue": "simple-html",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_darkGray"

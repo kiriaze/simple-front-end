@@ -1,0 +1,13 @@
+{
+  "name": "animate.scss",
+  "homepage": "https://github.com/kiriaze/animate.scss",
+  "_release": "dedbf4585f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "dedbf4585f201bf8648049b2b12087006d60f859"
+  },
+  "_source": "git://github.com/kiriaze/animate.scss.git",
+  "_target": "*",
+  "_originalSource": "kiriaze/animate.scss"
+}
