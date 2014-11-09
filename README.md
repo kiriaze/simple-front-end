@@ -10,8 +10,16 @@ A html boilerplate utilizing .kit and simple's front end framework.
 4. Better SVG handling.
 
 Current Philosophy parallels smaccs, oocss, an bem philosophy - but better.
-Meet .
+Meet Soma.
+```
+S imple
+O bject Oriented
+M odular
+A rchitecture
+```
+
 * No underscores, camelcasing, or double hyphens - umm did people forget proper naming conventions specific to each language?
+	* Although I would prefer using camelcasing over many hypens
 * Scss only, less sucks donkey dick.
 * Minimal ID's, primarily for main elements, e.g. header,nav, main, footer, and for js manipulation.
 * Placeholders galore. ( % incase you didn't know )
