@@ -32,7 +32,7 @@
 
 
 
-// // method for %ib layout fix for spacing
+// // method for %ib layout fix for spacing consider
 // @font-face{
 //     font-family: 'NoSpace';
 //     src: url('../Fonts/zerowidthspaces.eot');
@@ -172,7 +172,10 @@ $gridDebug:			false !default;
 
 	@if( $display == 'ib' ) {
 
-		@extend %ib;
+		display: inline-block;
+		vertical-align: top;
+	    position: relative;
+	    text-align: left; // reset
 		font-size: initial;
 
 	} @else {
@@ -254,7 +257,8 @@ $gridDebug:			false !default;
 
 }
 
-[class*='#{$column-class}-'] {
+[class*='#{$column-class}-'],
+[data-columns] {
 	@if( $gridDebug == true ) {
 		background: $yellow; // testing purposes
 		padding-top: 1.5rem;

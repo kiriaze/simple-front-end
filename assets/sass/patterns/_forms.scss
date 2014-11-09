@@ -1,24 +1,24 @@
 // all buttons with bg color classes attached
 // $colors array in _colors.scss
 // Notice: errors with libsass enabled
-// @each $newColor, $color in $colors {
-// 	body[data-simpleforms-color="#{$newColor}"] {
-// 		.simpleforms {
-// 			.sf-toggler.checked {
-// 				background-color: $color;
-// 			}
-// 			.sf-checkbox.checked,
-// 			.sf-radio.checked {
-// 				border: 1px solid $color;
-// 				background-color: $color;
-// 			}
-// 			input:focus,
-// 			textarea:focus {
-// 				border-color: $color;
-// 			}
-// 		}
-// 	}
-// }
+@each $newColor, $color in $colors {
+	body[data-simpleforms-color="#{$newColor}"] {
+		.simpleforms {
+			.sf-toggler.checked {
+				background-color: $color;
+			}
+			.sf-checkbox.checked,
+			.sf-radio.checked {
+				border: 1px solid $color;
+				background-color: $color;
+			}
+			input:focus,
+			textarea:focus {
+				border-color: $color;
+			}
+		}
+	}
+}
 
 label {
 	display: inline-block;

@@ -21,17 +21,6 @@
 					<input type="password" class="password" name="password" placeholder="Enter your password">
 				</div>
 
-				<div class="simpleforms">
-					<label for="file" class="file-label">
-						<p>File Input:</p>
-						<input type="file" class="file-input" name="file">
-						<a class="file-select btn small solid" href="javascript:;"><i class="fa fa-upload"></i>Upload file</a>
-						<span class="file-name"></span>
-						<a href="javascript:;" class="remove-file">Remove File</a>
-						<img class="preview-file" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" alt="preview image" />
-					</label>
-				</div>
-
 			</div>
 
 			<div class="columns-2">
@@ -65,6 +54,18 @@
 							</select>
 						</div>
 
+						<br>
+
+						<div class="simpleforms">
+							<label for="file" class="file-label">
+								<p>File Input:</p>
+								<input type="file" class="file-input" name="file">
+								<a class="file-select btn small solid" href="javascript:;"><i class="fa fa-upload"></i>Upload file</a>
+								<span class="file-name"></span>
+								<a href="javascript:;" class="remove-file">Remove File</a>
+								<img class="preview-file" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" alt="preview image" />
+							</label>
+						</div>
 					</div>
 
 					<div class="columns-2">
@@ -73,17 +74,30 @@
 							<input type="radio" name="radio" value="radio-1" id="radio-1">
 							<label for="radio-1">Radio 1</label>
 						</div>
+
 						<div class="simpleforms">
 							<input type="radio" name="radio" value="radio-2" id="radio-2">
 							<label for="radio-2">Radio 2</label>
 						</div>
+
 						<div class="simpleforms">
 							<input type="radio" name="radio" value="radio-3" id="radio-3">
 							<label for="radio-3">Radio 3</label>
 						</div>
+
 						<br>
+
 						<div class="simpleforms">
 							<input type="checkbox" name="toggler" value="toggler" class="toggler">
+						</div>
+
+						<br>
+
+						<div class="simpleforms">
+							<label for="submit">
+								<p>Form Submit</p>
+								<button class="ladda-button btn solid" data-style="expand-left" type="submit">Submit</button>
+							</label>
 						</div>
 
 					</div>
@@ -93,6 +107,14 @@
 			</div><!-- /columns-2 -->
 
 		</div><!-- /row -->
+
+
+<pre class="prettyprint linenums showcase-code">
+// Usage
+&lt;div class="simpleforms"&gt;
+	&lt;input type="text" placeholder="Text Input" name="text-input"&gt;
+&lt;/div&gt;
+</pre>
 
 	</div><!-- /container -->
 

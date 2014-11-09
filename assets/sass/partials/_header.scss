@@ -1,9 +1,19 @@
 // global header styles
 #header {
 	line-height: 75px;
-	background: white;
+	background-color: white;
+	@include breakpoint($small) {
+		position: absolute;
+		z-index: $zIndex-1;
+		top: 0;
+		right: 0;
+		left: 0;
+	}
 	// @extend %sticky;
 	.logo {
 		float: left;
+		font-family: $header-font;
+		text-transform: uppercase;
+		font-weight: 800;
 	}
 }

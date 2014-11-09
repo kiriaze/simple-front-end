@@ -47,27 +47,6 @@ section {
         }
     }
 
-    &.padding-top-large {
-        padding-top: 30vw;
-    }
-
-    &.padding-bottom-large {
-        padding-bottom: 30vw;
-    }
-
-    &.no-padding-top {
-        padding-top: 0;
-    }
-
-    &.no-padding-bottom {
-        padding-bottom: 0;
-    }
-
-    &.no-padding {
-    	padding-top: 0;
-    	padding-bottom: 0;
-    }
-
 	&.stripe:nth-child(even) {
 		background-color: #f5f6f7;
 	}

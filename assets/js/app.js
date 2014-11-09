@@ -1,3 +1,4 @@
+// Defaults
 // @codekit-prepend 'vendor/jquery-2.0.3.min.js'
 // @codekit-prepend 'vendor/jquery-ui.min.js'
 // @codekit-prepend 'vendor/jquery.easing.min.js'
@@ -15,7 +16,10 @@
 
 // @codekit-prepend 'plugins/velocity.min.js'
 
-// @codekit-prepend 'plugins/signet.min.js'
+// Lada
+// @codekit-prepend '../../bower_components/Ladda/dist/spin.min.js'
+// @codekit-prepend '../../bower_components/Ladda/dist/ladda.min.js'
+// @codekit-prepend '../../bower_components/Ladda/dist/ladda.jquery.min.js'
 
 // @codekit-prepend 'plugins/responsive-nav/responsive-nav.min.js'
 // @codekit-prepend 'plugins/owl-carousel/owl.carousel.min.js'
@@ -33,6 +37,8 @@
 // @codekit-prepend 'plugins/infinite-scroll/manual-trigger.js'
 // @codekit-prepend 'plugins/mediaelement-and-player.min.js'
 // @codekit-prepend 'plugins/simple-media.js'
+
+// @codekit-append 'plugins/signet.min.js'
 
 (function($){
 
@@ -233,6 +239,20 @@
 			offset:       0          // default
 		})
 		wow.init();
+
+
+		// lada
+		// Buttons accepts three attributes:
+		// data-style: one of the button styles, full list in demo [required]
+		// data-color: green/red/blue/purple/mint
+		// data-size: xs/s/l/xl, defaults to medium
+		// data-spinner-size: 40, pixel dimensions of spinner, defaults to dynamic size based on the button height
+		// data-spinner-color: A hex code or any named CSS color.
+
+		// Automatically trigger the loading animation on click
+		// $( '.ladda-button' ).ladda( 'bind' );
+		// Same as the above but automatically stops after two seconds
+		$( '.ladda-button' ).ladda( 'bind', { timeout: 2000 } );
 
 	};
 
@@ -501,7 +521,9 @@
 			$stat.html(current);
 
 			// set timeout to increment value
-			setTimeout(function(){ scrollCounter($stat, current + 1); }, 40);
+			setTimeout(function(){
+				scrollCounter($stat, current + 1);
+			}, 40);
 
 		};
 

@@ -3,7 +3,7 @@
 <!-- Body Class -->
 
 <!-- Nav Class -->
-<!-- $404             = inactive -->
+<!-- Nav Class -->
 
 <!-- Import Header -->
 
@@ -56,10 +56,16 @@
 					<a href="/type.html" class="inactive">Type</a>
 				</li>
 				<li>
+					<a href="/mods.html" class="inactive">Mods</a>
+				</li>
+				<li>
 					<a href="/default.html" class="inactive">Default</a>
 				</li>
 				<li>
-					<a href="/404.html" class="<!-- $404 -->">404</a>
+					<a href="/404.html" class="inactive">404</a>
+				</li>
+				<li>
+					<a href="/contact.html" class="inactive">Contact</a>
 				</li>
 			</ul>
 		</nav>
@@ -70,7 +76,18 @@
 
 		<main id="main">
 
-<section id="simple-grid">
+<section class="hero hero-mod text-align-center">
+	<div class="container valign">
+		<h1 class="xlarge">Simple Grid.</h1>
+		<p class="lead">A human friendly, semantic, hybrid grid framework utilizing data attributes.</p>
+		<a href="javascript:;" class="btn"><i class="fa fa-star"></i>On Github</a>
+		<a href="javascript:;" data-scroll-to="below-fold" class="btn solid"><i class="fa fa-chevron-down"></i>Demo</a>
+	</div>
+</section>
+
+<div data-scroll-target="below-fold"></div>
+
+<section id="simple-grid" class="stripe">
 	<div class="container">
 
 		<h2>The Grid - Classic Floats yo.</h2>
@@ -135,11 +152,13 @@
             	</div>
             </div>
 		</div>
+
 	</div>
 </section>
 
 <section class="stripe">
 	<div class="container">
+		<h2>Article + Sidebar</h2>
 		<div class="row">
 			<article class="columns-70">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem architecto ipsam dolores ea quas ut dolorem libero reprehenderit est quibusdam ex aperiam, distinctio natus impedit mollitia veniam repellendus commodi atque!
@@ -153,14 +172,15 @@
 
 <section class="stripe">
 	<div class="container">
-		<div class="row">
-			<div class="columns-30">
+		<h2>[Data Columns]</h2>
+		<div data-layout="grid">
+			<div data-columns=".3">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem architecto ipsam dolores ea quas ut dolorem libero reprehenderit est quibusdam ex aperiam, distinctio natus impedit mollitia veniam repellendus commodi atque!
 			</div>
-			<div class="columns-40">
+			<div data-columns=".4">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem architecto ipsam dolores ea quas ut dolorem libero reprehenderit est quibusdam ex aperiam, distinctio natus impedit mollitia veniam repellendus commodi atque!
 			</div>
-			<div class="columns-30">
+			<div data-columns=".3">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem architecto ipsam dolores ea quas ut dolorem libero reprehenderit est quibusdam ex aperiam, distinctio natus impedit mollitia veniam repellendus commodi atque!
 			</div>
 		</div>
@@ -209,9 +229,6 @@
 	<div class="container">
 		<h3>The Grid - Full Width mannn.</h3>
 	</div>
-</section>
-
-<section class="stripe no-padding">
 	<ul class="row">
 		<li class="columns-70 bg-purple">
 			<h2>Columns 7</h2>
@@ -220,9 +237,6 @@
 			<h2>Columns 3</h2>
 		</li>
 	</ul>
-</section>
-
-<section class="stripe no-padding">
 	<ul class="row">
 		<li class="columns-3 bg-purple">
 			<h2>Columns 3</h2>
@@ -236,13 +250,27 @@
 	</ul>
 </section>
 
-<section class="stripe no-padding">
+<section class="stripe">
+	<div class="container">
+		<h3>The Grid - Full Width No Gutter.</h3>
+	</div>
 	<ul class="row no-gutter">
 		<li class="columns-2 bg-purple">
 			<h2>Columns 2</h2>
 		</li>
 		<li class="columns-2 bg-red">
 			<h2>Columns 2</h2>
+		</li>
+	</ul>
+	<ul class="row no-gutter">
+		<li class="columns-3 bg-purple">
+			<h2>Columns 3</h2>
+		</li>
+		<li class="columns-3 bg-red">
+			<h2>Columns 3</h2>
+		</li>
+		<li class="columns-3 bg-purple">
+			<h2>Columns 3</h2>
 		</li>
 	</ul>
 </section>

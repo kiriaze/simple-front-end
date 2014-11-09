@@ -6,13 +6,38 @@
 
 	min-height: 100%;
 	padding: 0;
-	// padding: 5rem 0 20vw;
 
 	&:before {
 		content: '';
 		background: rgba(0,0,0,.3);
 		@extend %absolute-cover;
 		@extend %vignette;
+	}
+
+	&.hero-mod {
+		background-color: $white;
+		color: $black;
+		&:before {
+			display: none;
+		}
+		h1 {
+			margin-bottom: 1rem;
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+		h2 {
+			margin-bottom: 2rem;
+		}
+		.btn {
+			text-transform: uppercase;
+			font-weight: 600;
+			&:first-of-type {
+				margin-right: 1rem;
+			}
+			i {
+				margin-top: -2px;
+			}
+		}
 	}
 
 	.hero-inner {
