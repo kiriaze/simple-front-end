@@ -3,6 +3,14 @@ Simple Html
 
 A html boilerplate utilizing .kit and simple's front end framework.
 
+### Installation:
+#### Standalone
+1. Clone.
+2. Drop into Codekit.
+3. Make dope shit.
+#### Simple-Child w/ Bower
+1. Handled through Simple-Child
+
 ### Todos:
 1. Bower implementation
 2. Patternlab implementation
