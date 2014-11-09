@@ -9,7 +9,7 @@ A html boilerplate utilizing .kit and simple's front end framework.
 3. Clean up components - include via bower option?
 4. Better SVG handling.
 
-Current Philosophy parallels smaccs, oocss, an bem philosophy - but better.
+Simple's current philosophy parallels the smaccs, oocss, an bem philosophy - but better.
 Meet Soma.
 ```
 S imple
