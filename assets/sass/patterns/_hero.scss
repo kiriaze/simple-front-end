@@ -22,6 +22,7 @@
 	&#slides {
 		li {
 			min-height: 100%;
+			background-size: cover;
 			&:before {
 				content: '';
 				background: rgba(0,0,0,.3);

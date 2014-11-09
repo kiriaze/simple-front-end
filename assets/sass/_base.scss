@@ -38,8 +38,9 @@ $list-line-height:				1.6 !default;
 $blockquotes-font-size:			21 !default;
 
 // container and column classes for simplegrid
-$container-class:				'row'; // defaults to [data-layout  ="grid"]
-$column-class:					'columns'; // defaults to [data-columns ="$"]
+$container-class:				'container'; // defaults to [data-layout = "container"]
+$row-class:						'row'; // defaults to [data-layout = "grid"]
+$column-class:					'columns'; // defaults to [data-columns = "$"]
 $number-of-columns:				12; // max number of columns
 // $gridDebug:						true; // grid colors
 // $gutter:						0;

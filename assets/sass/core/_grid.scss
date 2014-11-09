@@ -16,6 +16,7 @@
 		Variables below defined in _base.scss
 
 			$container-class: 'foo';
+			$row-class: 'foo';
 			$column-class: 'bar';
 			$gutter: 3%; // spacing between columns
 			$max-columns: 6; //  @for loop class declarations
@@ -29,6 +30,31 @@
 	.columns-2, .columns-2
 	.columns-4, .columns-4, .columns-4, .columns-4
 
+
+
+// // method for %ib layout fix for spacing
+// @font-face{
+//     font-family: 'NoSpace';
+//     src: url('../Fonts/zerowidthspaces.eot');
+//     src: url('../Fonts/zerowidthspaces.eot?#iefix') format('embedded-opentype'),
+//          url('../Fonts/zerowidthspaces.woff') format('woff'),
+//          url('../Fonts/zerowidthspaces.ttf') format('truetype'),
+//          url('../Fonts/zerowidthspaces.svg#NoSpace') format('svg');
+// }
+
+// body {
+//     font-face: 'OpenSans', sans-serif;
+// }
+
+// .inline-container {
+//     font-face: 'NoSpace';
+// }
+
+// .inline-container > * {
+//     display: inline-block;
+//     font-face: 'OpenSans', sans-serif;
+// }
+
 ============================================ */
 
 //-------------------------------------------------------
@@ -36,16 +62,17 @@
 //-------------------------------------------------------
 
 // this is the fixed gutter between columns
-$gutter: 3% !default;
-$docWidth: 100% !default;
+$gutter: 			3% !default;
+$docWidth: 			100% !default;
 
 // this sets your class names
-$container-class: "row" !default;
-$column-class: "columns" !default;
-$max-columns: 12 !default;
+$container-class:	"container" !default; // optional
+$row-class:			"row" !default;
+$column-class:		"columns" !default;
+$max-columns:		12 !default;
 
 // Grid check
-$gridDebug: false !default;
+$gridDebug:			false !default;
 
 
 //-------------------------------------------------------
@@ -197,9 +224,11 @@ $gridDebug: false !default;
 //-------------------------------------------------------
 // CLASS AND DATA DELEGATIONS
 //-------------------------------------------------------
-.container {
 
-	@include container-fixed();
+[class~='#{$container-class}'],
+[data-layout='container'] {
+
+	@include container-fixed($padded: true);
 
 	// fluid grid, but fixed responsiveness - container fixedwidth with breakpoints
 	@include breakpoint($small) {
@@ -214,7 +243,7 @@ $gridDebug: false !default;
 
 }
 
-[class~='#{$container-class}'],
+[class~='#{$row-class}'],
 [data-layout='grid'] {
 
 	@include grid();
@@ -224,6 +253,7 @@ $gridDebug: false !default;
 	}
 
 }
+
 [class*='#{$column-class}-'] {
 	@if( $gridDebug == true ) {
 		background: $yellow; // testing purposes

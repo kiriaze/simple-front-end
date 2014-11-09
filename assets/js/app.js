@@ -144,6 +144,15 @@
 		});
 		// usage: <img class="lazy" data-original="" src="gray.png" alt="" />
 
+
+		// replace the data-background into background image - lazy loaded (superslides)
+		$('#slides li, .bg-image').each(function() {
+			var img = $(this).data('background');
+			$(this).css('background-image', "url('" + img + "')");
+		});
+		// <div class="slide img-bg clearfix" data-background="images/slider/4.jpg" style="background-image: url(http://template.ridianur.com/clbk/slider-background/images/slider/4.jpg);"></div>
+
+
 		// Fastclick.js - Polyfill to remove click delays on browsers with touch UIs
 		$(function() {
 			window.FastClick.attach(document.body);
