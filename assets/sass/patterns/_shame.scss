@@ -1,3 +1,7 @@
+body {
+	background: black; // for page transitions
+}
+
 .padding-top-large {
 	padding-top: 2rem;
 	@include breakpoint($small) {
@@ -154,6 +158,12 @@ section {
 	animation: rotate .25s ease-in-out;
 }
 
+.mfp-content {
+	p {
+		margin: 1rem 0;
+	}
+}
+
 // Team Modal
 .modal-member {
 	overflow: hidden;
@@ -224,56 +234,59 @@ section {
 }
 
 // services 4 up hover
-.service-box {
-	height: 27.625rem;
-	display: table;
-	cursor: pointer;
-	border-bottom: solid 1px #ddd;
-	border-top: solid 1px #ddd;
-	border-right: solid 1px #ddd;
+.services {
+	background-color: $white;
+	.service-box {
+		height: 27.625rem;
+		display: table;
+		cursor: pointer;
+		border-bottom: solid 1px #ddd;
+		border-top: solid 1px #ddd;
+		border-right: solid 1px #ddd;
 
-	@include breakpoint($small) {
-		@include columns(2);
-	}
+		@include breakpoint($small) {
+			@include columns(2);
+		}
 
-	@include breakpoint($medium) {
-		@include columns(4);
-	}
+		@include breakpoint($medium) {
+			@include columns(4);
+		}
 
-	&:nth-child(4n) {
-		border-right: 0;
-	}
+		&:nth-child(4n) {
+			border-right: 0;
+		}
 
-	.service-box-content {
-		display: table-cell;
-		vertical-align:  middle;
-		padding: 2rem;
-		text-align:  center;
+		.service-box-content {
+			display: table-cell;
+			vertical-align:  middle;
+			padding: 2rem;
+			text-align:  center;
 
-		h6 {
+			h6 {
+				margin-bottom: 1rem;
+			}
+
+			p {
+				display: block;
+				max-height: 0px;
+				opacity: 0;
+				overflow: hidden;
+			    transition: all .45s ease;
+			}
+
+		}
+
+		.service-icon {
+			font-size: 2rem;
 			margin-bottom: 1rem;
 		}
 
-		p {
-			display: block;
-			max-height: 0px;
-			opacity: 0;
-			overflow: hidden;
-		    transition: all .45s ease;
-		}
-
-	}
-
-	.service-icon {
-		font-size: 2rem;
-		margin-bottom: 1rem;
-	}
-
-	&:hover {
-		.service-box-content {
-			p {
-				max-height: 500px;
-				opacity: 1;
+		&:hover {
+			.service-box-content {
+				p {
+					max-height: 500px;
+					opacity: 1;
+				}
 			}
 		}
 	}
@@ -340,5 +353,8 @@ a.button {
 	@include breakpoint($large) {
 		padding: 20px 45px;
 		font-size: 11px;
+	}
+	i {
+		padding-right: 5px;
 	}
 }

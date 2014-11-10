@@ -17,6 +17,9 @@
 	&.hero-mod {
 		background-color: $white;
 		color: $black;
+		&.dark {
+			color: $white;
+		}
 		&:before {
 			display: none;
 		}

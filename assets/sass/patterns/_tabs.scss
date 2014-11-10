@@ -3,9 +3,13 @@
 	[data-tab] {
 	    display: inline-block;
 	    padding: 10px 20px;
+	    font: bold 13px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+		color: #2A3034;
+		text-transform: uppercase;
+		border-bottom: 2px solid #BDC3C7;
 	    &.active,
 		&:hover {
-		    background: #DDD;
+		    background: #F6F8FB;
 		    color: #222;
 		}
 	}
