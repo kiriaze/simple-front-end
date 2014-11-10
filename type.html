@@ -78,15 +78,30 @@
 
 <!-- //@import "../partials/hero.kit" -->
 
-<section class="hero hero-mod text-align-center">
-	<div class="container valign">
+<section class="hero hero-mod text-align-center stripe canvas">
+	<div class="container">
 		<h1 class="xlarge">Typography.</h1>
 		<p class="lead">A collection of beautiful typographic components.</p>
 		<a href="javascript:;" data-scroll-to="below-fold" class="btn invert"><i class="fa fa-chevron-down"></i>Show me the money</a>
 	</div>
+	<canvas id="canvas" class="mod-fill"></canvas>
 </section>
 
-<div class="" data-scroll-target="below-fold"></div>
+<script>
+	var A = window.A || {};
+	A.Touch = {
+	isTouch: function() {
+	    return !!('ontouchstart' in window || navigator.msMaxTouchPoints);
+	  }
+	}
+  ; // #canvas animation logic (science)
+  ; (function(){function q(){f=[];for(var b=l/7,a=n/7,g=0-b;g<l+b;g+=b)for(var c=0-a;c<n+a;c+=a){var e=g+Math.random()*b,h=c+Math.random()*a,k=360*Math.random(),m=7.5+15*Math.random()/2,q=7.5+15*Math.random()/2;f.push({x:e,originX:e,y:h,originY:h,deg:k,rX:m,rY:q})}for(b=0;b<f.length;b++){a=[];g=f[b];for(c=0;c<f.length;c++)if(e=f[c],g!=e){h=!1;for(k=0;5>k;k++)h||void 0!=a[k]||(a[k]=e,h=!0);for(k=0;5>k;k++)!h&&r(g,e)<r(g,a[k])&&(a[k]=e,h=!0)}g.closest=a}for(var p in f)b=new t(f[p],4,"rgba(0,0,0,0.3)"),f[p].circle=b}function p(b){"resize"==b.type&&A.Touch.isTouch()||(l=window.innerWidth,n=window.innerHeight,m.width=l,m.height=n,q())}function s(){e.clearRect(0,0,l,n);for(var b in f){f[b].active=.01;f[b].circle.active=.01;var a=f[b],g=3*l,c=void 0;for(c in a.closest)e.beginPath(),e.moveTo(a.x,a.y),e.lineTo(a.closest[c].x,a.closest[c].y),d=Math.abs(r(a.closest[c],a)),a.active=g/d,.05>a.active&&(a.active=0),a.circle.active+=.5*a.active,e.strokeStyle="rgba(0,0,0,"+a.active+")",e.stroke();f[b].circle.draw();a=f[b];a.deg+=.01;a.y=a.originY+a.rY*Math.sin(a.deg);a.x=a.originX+a.rX*Math.cos(a.deg)}requestAnimationFrame(s)}function t(b,a,f){var c=this,l=2*Math.PI;c.pos=b||null;c.radius=a||null;c.color=f||null;var h=0;this.draw=function(){c.active&&(e.beginPath(),h=Math.min(c.radius,c.active*c.radius),e.arc(c.pos.x,c.pos.y,h,0,l,!1),e.strokeStyle="rgba(0,0,0,"+.2*h+")",e.stroke())}}function r(b,a){return Math.pow(b.x-a.x,2)+Math.pow(b.y-a.y,2)}var l,n,m,e,f;l=window.innerWidth;n=window.innerHeight;m=document.getElementById("canvas");m.width=l;m.height=n;e=m.getContext("2d");q();s();window.addEventListener("resize",p);window.addEventListener("orientationchange",p)})();
+      ; // requestAnimationFrame by Erik Möller, Paul Irish, Tino Zijdel; MIT
+      ; (function(){for(var e=0,b=["ms","moz","webkit","o"],a=0;a<b.length&&!window.requestAnimationFrame;++a)window.requestAnimationFrame=window[b[a]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[b[a]+"CancelAnimationFrame"]||window[b[a]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(a,b){var c=(new Date).getTime(),d=Math.max(0,16-(c-e)),f=window.setTimeout(function(){a(c+d)},d);e=c+d;return f});window.cancelAnimationFrame||(window.cancelAnimationFrame=function(a){clearTimeout(a)})})();
+</script>
+<!-- /script-->
+
+<div data-scroll-target="below-fold"></div>
 
 <section class="stripe">
 
@@ -124,29 +139,41 @@
 
 		<div class="row">
 
-			<ul class="columns-4">
-				<li>List item 1</li>
-				<li>List item 2</li>
-				<li>List item 3</li>
-			</ul>
+			<div class="columns-4">
+				<h4>Unordered List</h4>
+				<ul>
+					<li>List item 1</li>
+					<li>List item 2</li>
+					<li>List item 3</li>
+				</ul>
+			</div>
 
-			<ul class="check columns-4">
-				<li>List item 1</li>
-				<li>List item 2</li>
-				<li>List item 3</li>
-			</ul>
+			<div class="columns-4">
+				<h4>Ordered List</h4>
+				<ol>
+					<li>List item 1</li>
+					<li>List item 2</li>
+					<li>List item 3</li>
+				</ol>
+			</div>
 
-			<ul class="check columns-4">
-				<li>List item 1</li>
-				<li>List item 2</li>
-				<li>List item 3</li>
-			</ul>
+			<div class="columns-4">
+				<h4>Custom Class</h4>
+				<ul class="check">
+					<li>List item 1</li>
+					<li>List item 2</li>
+					<li>List item 3</li>
+				</ul>
+			</div>
 
-			<ul class="check columns-4">
-				<li>List item 1</li>
-				<li>List item 2</li>
-				<li>List item 3</li>
-			</ul>
+			<div class="columns-4">
+				<h4>List Style Class</h4>
+				<ul class="list-style-fa-star">
+					<li>List item 1</li>
+					<li>List item 2</li>
+					<li>List item 3</li>
+				</ul>
+			</div>
 
 		</div>
 
@@ -1343,19 +1370,27 @@
 
 </section>
 
+
 	<footer role="contentinfo" id="footer">
-	<section class="dark text-align-center">
-		<div class="container">
-			<div class="island">
-				<h2>
-					Legaleeze
-				</h2>
-				<p>
-					You can do whatever you want to with Simple or its plugins, just leave the credits where they at - gotta leave some love. Everything falls under the Apache License 2.0 which you can read through if you really want to.
-				</p>
-			</div>
-		</div>
-	</section>
+	<div class="container">
+		<ul class="social-icons">
+			<li>
+				<a href="javascript:;" class="fa fa-facebook"></a>
+			</li>
+			<li>
+				<a href="javascript:;" class="fa fa-twitter"></a>
+			</li>
+			<li>
+				<a href="javascript:;" class="fa fa-linkedin"></a>
+			</li>
+			<li>
+				<a href="javascript:;" class="fa fa-google-plus"></a>
+			</li>
+		</ul>
+		<p>
+			Copyright © 2014 Simple
+		</p>
+	</div>
 </footer>
 
 	</main>

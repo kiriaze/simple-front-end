@@ -12,6 +12,8 @@
 // @codekit-prepend 'plugins/simpleforms.min.js'
 // @codekit-prepend 'plugins/prettify.js'
 
+// @codekit-prepend 'plugins/signet.min.js'
+
 // 'plugins/smoothscroll.js'
 
 // @codekit-prepend 'plugins/velocity.min.js'
@@ -37,8 +39,6 @@
 // @codekit-prepend 'plugins/infinite-scroll/manual-trigger.js'
 // @codekit-prepend 'plugins/mediaelement-and-player.min.js'
 // @codekit-prepend 'plugins/simple-media.js'
-
-// @codekit-append 'plugins/signet.min.js'
 
 (function($){
 
@@ -253,6 +253,12 @@
 		// $( '.ladda-button' ).ladda( 'bind' );
 		// Same as the above but automatically stops after two seconds
 		$( '.ladda-button' ).ladda( 'bind', { timeout: 2000 } );
+
+
+		// header class color nav if hero
+		if ( $('.hero.dark').length ) {
+			$('#header').addClass('has-hero');
+		}
 
 	};
 
@@ -770,6 +776,29 @@
         $('body').find('[class*=fi-]').filter(function() {
             return this.className.match(/\bfi-/);
         }).addClass('fi');
+
+		// fund ul's with 'list-style-' class, and apply icons to that list
+		$('ul[class*=list-style-]').filter(function(){
+			var classes = $(this).attr('class').split(" "),
+				temp = this.className.match(/\blist-style-/);
+
+			//console.log(classes);
+			//console.log(listStyle);
+			//console.log(temp);
+
+			for ( var i = 0; i < classes.length; i++ ) {
+
+				if ( classes[i].match(/\blist-style-/) ) {
+					var listStyle = classes[i].replace('list-style-','');
+					// console.log(listStyle);
+				}
+			}
+
+			$.each( $(this).find('li'), function(index, val) {
+				$(this).prepend('<i class="'+ listStyle +'" />');
+			});
+
+		});
 
 	});
 

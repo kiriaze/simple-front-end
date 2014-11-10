@@ -360,20 +360,20 @@ ol {
 }
 
 ul {
-	list-style: none outside;
+	list-style: none inside;
 	&.square,
 	&.circle,
 	&.disc {
 
 	}
 	&.square {
-		list-style: square outside;
+		list-style: square inside;
 	}
 	&.circle {
-		list-style: circle outside;
+		list-style: circle inside;
 	}
 	&.disc {
-		list-style: disc outside;
+		list-style: disc inside;
 	}
 	ul {
 
@@ -381,7 +381,7 @@ ul {
 }
 
 ol {
-	list-style: decimal;
+	list-style: decimal inside;
 	li {
 		margin-left: $list-disc-left-margin;
 	}

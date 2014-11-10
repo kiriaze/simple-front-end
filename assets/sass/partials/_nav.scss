@@ -83,7 +83,7 @@
 	.nav-toggle {
 		display: none;
 	}
-	.nav-collapse {
+	#nav.nav-collapse {
 		width: auto;
 		ul {
 			width: auto;
@@ -93,6 +93,11 @@
 				margin: 0 1rem;
 				&:last-child {
 					margin-right: 0;
+				}
+				a {
+					.has-hero & {
+						color: $white;
+					}
 				}
 			}
 		}

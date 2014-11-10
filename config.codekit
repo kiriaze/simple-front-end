@@ -67,28 +67,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/images\/arrow-down.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1208,
-		"inputAbbreviatedPath": "\/assets\/images\/arrow-down.png",
-		"outputAbbreviatedPath": "\/assets\/images\/arrow-down.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/footer-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47911,
-		"inputAbbreviatedPath": "\/assets\/images\/footer-bg.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/footer-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/gray.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -100,24 +78,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/images\/logo-footer.png": {
-		"fileType": 32768,
+	"\/assets\/images\/hero.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3462,
-		"inputAbbreviatedPath": "\/assets\/images\/logo-footer.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logo-footer.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/logo-header.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3497,
-		"inputAbbreviatedPath": "\/assets\/images\/logo-header.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logo-header.png",
+		"initialSize": 154842,
+		"inputAbbreviatedPath": "\/assets\/images\/hero.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -132,204 +99,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/assets\/images\/pages\/all\/waveloch-cta-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 773389,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/all\/waveloch-cta-bg.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/all\/waveloch-cta-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/home\/1200wx800h-basic-home.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 647795,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/1200wx800h-basic-home.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/1200wx800h-basic-home.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/home\/400wx400h-basic-home.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 129587,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/400wx400h-basic-home.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/400wx400h-basic-home.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/home\/400wx800h-basic-home.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54174,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/400wx800h-basic-home.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/400wx800h-basic-home.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/home\/full-panel-bw.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 693922,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/full-panel-bw.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/full-panel-bw.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/pages\/home\/surf-report-iphone.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 369895,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/surf-report-iphone.png",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/surf-report-iphone.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/home\/waveloch-hero-home.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 381352,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/home\/waveloch-hero-home.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/home\/waveloch-hero-home.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/opportunity\/opportunity-bw.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 508983,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/opportunity\/opportunity-bw.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/opportunity\/opportunity-bw.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/pages\/opportunity\/opportunity-hero-image.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 691336,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/opportunity\/opportunity-hero-image.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/opportunity\/opportunity-hero-image.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/pages\/surfpool\/bw-gradient.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 450338,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/bw-gradient.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/bw-gradient.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/pages\/surfpool\/concept-art.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/concept-art.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/concept-art.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/surfpool\/waveloch-full-v-series.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.15878e+07,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/waveloch-full-v-series.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/waveloch-full-v-series.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/surfpool\/waveloch-hero-surfpool.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 672670,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/waveloch-hero-surfpool.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/waveloch-hero-surfpool.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/surfpool\/x-series-bw.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 124520,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/x-series-bw.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/surfpool\/x-series-bw.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/pages\/waveloch\/full-panel-bw.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8.38861e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/waveloch\/full-panel-bw.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/waveloch\/full-panel-bw.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/pages\/waveloch\/waveloch-hero-about.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 246730,
-		"inputAbbreviatedPath": "\/assets\/images\/pages\/waveloch\/waveloch-hero-about.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/pages\/waveloch\/waveloch-hero-about.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/squiggles.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7441,
-		"inputAbbreviatedPath": "\/assets\/images\/squiggles.png",
-		"outputAbbreviatedPath": "\/assets\/images\/squiggles.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/squiggly.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1201,
-		"inputAbbreviatedPath": "\/assets\/images\/squiggly.png",
-		"outputAbbreviatedPath": "\/assets\/images\/squiggly.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/assets\/js\/app-min.js": {
 		"fileType": 64,

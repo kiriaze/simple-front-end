@@ -11,10 +11,23 @@ ul {
 			osx-font-smoothing: grayscale;
 		}
 	}
+	&[class*='list-style-'] {
+		i {
+			padding-right: 5px;
+		}
+	}
 	&.check {
 		li {
 			&:before {
 				content: "\f00c";
+				padding-right: 5px;
+			}
+		}
+	}
+	&.star {
+		li {
+			&:before {
+				content: "\f005";
 				padding-right: 5px;
 			}
 		}
