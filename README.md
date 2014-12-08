@@ -1,4 +1,4 @@
-Simple Html
+SFE
 ===========
 
 A html boilerplate utilizing .kit and simple's front end framework.
@@ -43,12 +43,12 @@ A rchitecture
 		width: 80%;
 		margin: 0 auto;
 	}
-    
+
     // js
 	if ( $( '.some-element' ).length ) {
 		console.log('foo');
 	}
-    
+
 	// php
 	if ( isset( $someElement ) ) {
     	print_r($someElement);
@@ -63,14 +63,14 @@ A rchitecture
 	} else {
 		$someElement = '';
 	}
-	
+
     // alternative syntax
 	if ( isset( $foo ) ) :
 		$someElement = 'bar';
 	else :
 		$someElement = '';
 	endif;
-	
+
     // shorthand ternary operators
 	$someElement = $foo ? 'bar' : '';
 ?>
