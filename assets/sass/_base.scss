@@ -1,15 +1,15 @@
-// Site Dimensions
+// Site Global Dimensions
 $tiny:							em(480); // 30em
 $small:							em(768); // 45em
 $medium:						em(960); // 60em
 $large:							em(1280); // 80em
 
-// Base
+// Base Typography Values
 $rem-base:						16px !default;
 $base-font-size:				100% !default; // $base-font-size is 16px
 $base-line-height:				125% !default; // $base-line-height is 24px if 150%
 
-// Headings
+// Heading Values
 $header-line-height:			1.25 !default;
 $header-top-margin:				.2rem !default;
 $header-bottom-margin:			1rem !default;
@@ -21,7 +21,7 @@ $h4-font-size:					26 !default;
 $h5-font-size:					22 !default;
 $h6-font-size:					16 !default;
 
-// Paragraphs
+// Paragraph Values
 $small-font-size:				10 !default;
 $paragraph-font-size:			16 !default;
 $paragraph-lead-font-size:		20 !default;
@@ -29,7 +29,7 @@ $paragraph-bottom-margin:		1rem !default;
 $paragraph-lead-bottom-margin:	1rem !default;
 $paragraph-line-height:			1.8 !default;
 
-// Lists
+// List Values
 $list-bottom-margin:			.5rem !default;
 $list-disc-left-margin:			.5rem !default;
 $list-line-height:				1.6 !default;
@@ -37,7 +37,7 @@ $list-line-height:				1.6 !default;
 // Blockquotes
 $blockquotes-font-size:			21 !default;
 
-// container and column classes for simplegrid
+// Container and Column classes for simplegrid
 $container-class:				'container'; // defaults to [data-layout = "container"]
 $row-class:						'row'; // defaults to [data-layout = "grid"]
 $column-class:					'columns'; // defaults to [data-columns = "$"]
@@ -51,7 +51,7 @@ $header-font:					'Open Sans', $body-font; // theme specific
 
 
 //
-// COLOR VARIABLES - nicer browser defaults
+// COLOR VARIABLES - patterns/_colors.scss
 //
 // - Cool
 // - Warm
@@ -85,6 +85,7 @@ $default:						#ebebeb;
 $light-grey:                    #f5f5f5;
 $dark-grey:                     #333;
 
+
 // theme colors
 $theme-color:                   $blue;
 $accent-color:                  darken($theme-color, 10); // That is, 10% darker than the theme-color.
@@ -94,7 +95,29 @@ $tertiary-color:                $accent-color;
 // dark class
 $dark:							#434d5a;
 
-// Animation Variables
+
+// Animation Property Variables
 $duration:						.35s; // was .15, upped for hero transition - or change via js
 $delay:							.2s;
 $transition:					all $duration cubic-bezier(0.2, .4, .1, 1); // thumbnail animations
+$function:						ease;
+$fill:							both;
+$visibility:					visible;
+
+// Animation Class Variables Setup
+$fadeIn:						true;
+$fadeInDown:					true;
+$fadeInLeft:					true;
+$fadeInRight:					true;
+$fadeInUp:						true;
+$fadeOut:						true;
+$fadeOutDown:					true;
+$fadeOutLeft:					true;
+$fadeOutRight:					true;
+$fadeOutUp:						true;
+$fadeInScale:					true;
+$fadeInScaleBig:				true;
+$fadeOutScale:					true;
+$fadeOutScaleBig:				true;
+$slideOutUp:					true;
+$slideInDown:					true;

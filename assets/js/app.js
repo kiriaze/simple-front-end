@@ -1,42 +1,17 @@
 // Defaults
 // @codekit-prepend 'vendor/jquery-2.0.3.min.js'
-// @codekit-prepend 'vendor/jquery-ui.min.js'
 // @codekit-prepend 'vendor/jquery.easing.min.js'
 // @codekit-prepend 'vendor/modernizr-2.8.3.min.js'
 // @codekit-prepend 'plugins/fastclick.js'
-// @codekit-prepend 'plugins/isOnScreen.js'
 // @codekit-prepend 'plugins/retina.js'
 // @codekit-prepend 'plugins/simpleAnchors.js'
 // @codekit-prepend 'plugins/jquery.lazyload.min.js'
 // @codekit-prepend 'plugins/jquery.validate.min.js'
 // @codekit-prepend 'plugins/simpleforms.min.js'
 // @codekit-prepend 'plugins/prettify.js'
-
 // @codekit-prepend 'plugins/signet.min.js'
-
-// 'plugins/smoothscroll.js'
-
-// @codekit-prepend 'plugins/velocity.min.js'
-
-// Lada
-// @codekit-prepend '../../bower_components/Ladda/dist/spin.min.js'
-// @codekit-prepend '../../bower_components/Ladda/dist/ladda.min.js'
-// @codekit-prepend '../../bower_components/Ladda/dist/ladda.jquery.min.js'
-
-// @codekit-prepend 'plugins/responsive-nav/responsive-nav.min.js'
-// @codekit-prepend 'plugins/owl-carousel/owl.carousel.min.js'
 // @codekit-prepend 'plugins/jquery.matchHeight-min.js'
-// @codekit-prepend 'plugins/jquery.fitvids.js'
 // @codekit-prepend 'plugins/jquery.magnific-popup.min.js'
-// @codekit-prepend 'plugins/jquery.stellar.min.js'
-// @codekit-prepend 'plugins/jquery.photoset-grid.min.js'
-
-// @codekit-prepend 'plugins/pace.js'
-// @codekit-prepend 'plugins/jquery.superslides.js'
-// @codekit-prepend 'plugins/wow.js'
-
-// @codekit-prepend 'plugins/infinite-scroll/jquery.infinitescroll.min.js'
-// @codekit-prepend 'plugins/infinite-scroll/manual-trigger.js'
 // @codekit-prepend 'plugins/mediaelement-and-player.min.js'
 // @codekit-prepend 'plugins/simple-media.js'
 
@@ -52,29 +27,18 @@
 	var $window = $(window);
 
 	SHORTNAME.init = function(){
+
 		SHORTNAME.setElements();
 		SHORTNAME.colors();
 		SHORTNAME.basics();
-		SHORTNAME.photoGrid();
-		SHORTNAME.widowFix();
-		SHORTNAME.pageTransitions();
-		SHORTNAME.instagram();
-		SHORTNAME.parallaxVert();
-		SHORTNAME.mobileNav();
-		SHORTNAME.infinitescroll();
 		SHORTNAME.forms();
 		SHORTNAME.vertAlign();
 
-
-
-		SHORTNAME.alerts();
-		SHORTNAME.tooltips();
-		SHORTNAME.toggles();
-		SHORTNAME.accordions();
+		SHORTNAME.widowFix();
+		SHORTNAME.instagram();
 		SHORTNAME.tabs();
 		SHORTNAME.mediaElements();
 		SHORTNAME.magnificPopup();
-		SHORTNAME.stats();
 
 	};
 
@@ -87,23 +51,13 @@
 		SHORTNAME.elems.valign				=	$('.valign');
 		SHORTNAME.elems.commentform			=	$('#commentform');
 		SHORTNAME.elems.contactForm			=	$('#contactForm');
-		SHORTNAME.elems.loadMoreContainer	=	$('.load-more-container');
 		SHORTNAME.elems.scrollToTop			=	$('a[data-scroll-to="top"]');
-		SHORTNAME.elems.commentReplyLink	=	$('.comment-reply-link');
-		SHORTNAME.elems.respond				=	$('#respond');
 		SHORTNAME.elems.lazyImg				=	$('img.lazy');
-		SHORTNAME.elems.cover				=	$('.parallax');
-		SHORTNAME.elems.mobileNav			=	$('.nav-collapse');
 
-		SHORTNAME.elems.tooltip            =   $('[data-toggle=tooltip]');
-		SHORTNAME.elems.tab                =   $('[data-tab]');
 		SHORTNAME.elems.mediaElements      =   $('[data-media-src]');
-		SHORTNAME.elems.toggles            =   $('.simple-toggle');
-		SHORTNAME.elems.accordions         =   $('.simple-accordion');
 		SHORTNAME.elems.mfpImage           =   $('[data-type="mfp-image"]');
 		SHORTNAME.elems.mfpInline          =   $('[data-type="mfp-inline"]');
 		SHORTNAME.elems.mfpIframe          =   $('[data-type="mfp-iframe"]');
-		SHORTNAME.elems.stats              =   $('.stats');
 
 	};
 
@@ -150,15 +104,6 @@
 		});
 		// usage: <img class="lazy" data-original="" src="gray.png" alt="" />
 
-
-		// replace the data-background into background image - lazy loaded (superslides)
-		$('#slides li, .bg-image').each(function() {
-			var img = $(this).data('background');
-			$(this).css('background-image', "url('" + img + "')");
-		});
-		// <div class="slide img-bg clearfix" data-background="images/slider/4.jpg" style="background-image: url(http://template.ridianur.com/clbk/slider-background/images/slider/4.jpg);"></div>
-
-
 		// Fastclick.js - Polyfill to remove click delays on browsers with touch UIs
 		$(function() {
 			window.FastClick.attach(document.body);
@@ -170,43 +115,6 @@
 			easing: 'easeInOutCubic'
 		});
 
-		// Target your .container, .wrapper, .post, etc.
-		SHORTNAME.elems.body.fitVids();
-
-		// Stellar parallax
-		// $.stellar();
-
-		// stellar setting
-		$.stellar.positionProperty.position = {
-
-		    setTop: function($element, newTop, originalTop) {
-		        $element.css('top', newTop);
-		        if ( $element.hasClass("para-opacity") ) {
-		            var rate = $(window).height() / 1.5;
-		            $element.css('opacity', 1 - (newTop / rate));
-		        }
-		    },
-		    setLeft: function($element, newLeft, originalLeft) {
-		        $element.css('left', newLeft);
-		    }
-
-		}
-		// running only in desktop
-		if ( Modernizr.touch ) {
-		    //add class no-para for body in touch device
-		    $("body").addClass('no-para');
-		} else {
-		    $(window).stellar({
-		        horizontalScrolling: false,
-		        hideDistantElements: false,
-		        responsive: true
-		    });
-		}
-
-
-		// set image-grid columns to equal size
-		$('.image-grid').find('[class^="columns-"]').matchHeight();
-
 		// simpleforms - styles/effects for forms, checkboxes, radio's
 		$('body').simpleforms();
 
@@ -217,173 +125,6 @@
 		// simpleMedia init
 		SHORTNAME.elems.mediaElements.simpleMedia();
 
-		// superslides
-		$('#slides').superslides({
-			// play: 0,	// [number] Milliseconds before progressing to next slide automatically. Use a falsey value to disable.
-			animation: 'fade',	// [string] slide or fade. This matches animations defined by fx engine.
-			// animation_speed: 'normal',	// [string] Animation speed.
-			// animation_easing: 'linear',	// [string] Animation easing.
-			// inherit_width_from: window,	// [object] or [string] Accepts window or element selector. Use to constrain slider to an element's width.
-			// inherit_height_from: window,	// [object] or [string] Accepts window or element selector. Use to constrain slider to an element's height.
-			// pagination: true,	// [boolean] Generate pagination. Add an id to your slide to use custom pagination on that slide.
-			// hashchange: false,	// [boolean] Enable hashchange support in url.
-			// elements: '',	// [object] A hash of element classes used in generated html.
-		});
-
-		// wow
-		// <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"></section>
-		// <section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10"></section>
-		var wow = new WOW({
-			boxClass:     'wow',      // default
-			animateClass: 'animated', // default
-			offset:       0          // default
-		})
-		wow.init();
-
-
-		// lada
-		// Buttons accepts three attributes:
-		// data-style: one of the button styles, full list in demo [required]
-		// data-color: green/red/blue/purple/mint
-		// data-size: xs/s/l/xl, defaults to medium
-		// data-spinner-size: 40, pixel dimensions of spinner, defaults to dynamic size based on the button height
-		// data-spinner-color: A hex code or any named CSS color.
-
-		// Automatically trigger the loading animation on click
-		// $( '.ladda-button' ).ladda( 'bind' );
-		// Same as the above but automatically stops after two seconds
-		$( '.ladda-button' ).ladda( 'bind', { timeout: 2000 } );
-
-
-		// header class color nav if hero
-		if ( $('.hero.dark').length ) {
-			$('#header').addClass('has-hero');
-		}
-
-	};
-
-	SHORTNAME.alerts = function(){
-
-		$(".alert .close").click( function() {
-			$(this).parent('.alert').fadeTo(300, 0.001).slideUp();
-		});
-
-	};
-
-	SHORTNAME.tooltips = function() {
-		SHORTNAME.elems.tooltip.hover(
-			function() {
-				var $this = $(this),
-					title = $this.attr('title'),
-					position = $this.data('placement'),
-					tooltip = $( '<div class="tooltip '+position+'"><div class="tooltip-arrow"></div><div class="tooltip-inner">'+title+'</div></div>' );
-
-				$this.append( $( tooltip ) );
-
-				if ( position === 'top' ) {
-					tooltip.css({
-						'top': - tooltip.height() - 10,
-						'margin-left': - tooltip.width()/2
-					});
-				}
-
-				if ( position === 'bottom' ) {
-					tooltip.css({
-						'margin-left': - tooltip.width()/2
-					});
-				}
-
-				if ( position === 'left' ) {
-					tooltip.css({
-						'top': - tooltip.height()/4,
-						'left': - tooltip.width() - 20
-					});
-				}
-
-				if ( position === 'right' ) {
-					tooltip.css({
-						'top': - tooltip.height()/4,
-						'right': - tooltip.width() - 20
-					});
-				}
-
-				tooltip.addClass('in');
-
-			}, function() {
-				$( this ).find( ".tooltip" ).removeClass('in').remove();
-			}
-		);
-	};
-
-	SHORTNAME.toggles = function(){
-
-		SHORTNAME.elems.toggles.each( function () {
-
-			if( $(this).attr('data-id') === 'closed' ) {
-				$(this).accordion({
-					header: '.simple-toggle-title',
-					collapsible: true,
-					active: false
-				});
-			} else {
-				$(this).accordion({
-					header: '.simple-toggle-title',
-					collapsible: true
-				});
-			}
-
-		});
-
-		var icon = SHORTNAME.elems.toggles.find('.ui-icon');
-		icon.addClass('fa fa-angle-down');
-
-		if ( SHORTNAME.elems.toggles.find('.simple-toggle-title').is('.ui-state-active') ) {
-			$('.ui-state-active').find(icon).addClass('fa-angle-up');
-		}
-
-		SHORTNAME.elems.toggles.on('click',function(){
-			if ( $(this).find('.simple-toggle-title').is('.ui-state-active') ) {
-				$(this).find(icon).removeClass('fa-angle-down').addClass('fa-angle-up');
-			} else {
-				$(this).find(icon).removeClass('fa-angle-up').addClass('fa-angle-down');
-			}
-		});
-
-	};
-
-	SHORTNAME.tabs = function(){
-
-		//  Add active states to first tab and link
-		var tabs = $('[data-type="tabs"]');
-		tabs.find('[data-tab-content]:first-of-type').addClass('active');
-		tabs.find('[data-tab]:first-of-type').addClass('active');
-
-		// var tabHeight = [];
-
-		// $('[data-tab-content]').each(function(){
-		//     tabHeight.push($(this).height());
-		// });
-
-		SHORTNAME.elems.tab.on('click', function(e) {
-
-			e.preventDefault();
-
-			if ( $(this).is('.active') ) return;
-
-			$(this)
-				.addClass('active')
-				.siblings('[data-tab]')
-				.removeClass('active')
-
-				.siblings('[data-tab-content="' + $(this).data('tab') + '"]')
-
-				// .parents('[data-type="tabs"]').find('[data-tab-content="' + $(this).data('tab') + '"]')
-
-				.addClass('active')
-				.siblings('[data-tab-content]')
-				.removeClass('active');
-
-		});
 	};
 
 	SHORTNAME.mediaElements = function(){
@@ -493,103 +234,6 @@
 
 	};
 
-	SHORTNAME.stats = function(){
-
-		if( !SHORTNAME.elems.stats.length ) return;
-
-		var fired = 0;
-		$(window).scroll(function() {
-			if ( SHORTNAME.elems.stats.isOnScreen() ) {
-				if ( fired === 0 ) {
-					scrollStats();
-					fired = 1;
-				}
-			}
-		});
-
-		var scrollStats = function() {
-
-			// cycle through every scrollable stat and set the scrollCounter
-			SHORTNAME.elems.stats.find('.scrollstat').each( function() {
-
-				scrollCounter($(this), 0);
-
-			});
-
-		};
-
-		var scrollCounter = function($stat, current) {
-
-			// return if total reached
-			if ( current > $stat.data('total') ) return;
-
-			// set element html to new value
-			$stat.html(current);
-
-			// set timeout to increment value
-			setTimeout(function(){
-				scrollCounter($stat, current + 1);
-			}, 40);
-
-		};
-
-	};
-
-	SHORTNAME.accordions = function(){
-
-		// SHORTNAME.elems.accordions.siblings('.simple-accordion').andSelf().wrapAll('<div class="accordion"></div>');
-		// SHORTNAME.elems.accordions.nextUntil('*:not(.simple-accordion)').addBack().wrapAll( '<div class="accordion"></div>' );
-
-		$('.accordion').accordion({
-			header: '.simple-accordion-title',
-			collapsible: true,
-			heightStyle: "content"
-		});
-
-		var icon = SHORTNAME.elems.accordions.find('.ui-icon');
-		icon.addClass('ion-plus');
-
-		if ( SHORTNAME.elems.accordions.find('.simple-accordion-title').is('.ui-state-active') ) {
-			$('.ui-state-active').find(icon).addClass('ion-minus');
-		}
-
-		SHORTNAME.elems.accordions.on('click', function() {
-			icon.removeClass('ion-minus').addClass('ion-plus');
-			if ( $(this).find('.simple-accordion-title').is('.ui-state-active') ) {
-				$(this).find(icon).removeClass('ion-plus').addClass('ion-minus');
-			}
-		});
-
-	};
-
-	SHORTNAME.photoGrid = function() {
-
-		$('.photoset-grid-1').photosetGrid({
-			// Manually set the grid layout - each number is # of rows and images per row; e.g. 21 - 2 imgs in first row, 1 image in second row
-			layout: '12',
-			// Change the width that the photo set grid will be rendered at. Default: 100% automatically fits its container for responsive layouts
-			width: '100%',
-			// Set the pixel width between the columns and rows. Default: 0px
-			gutter: '35px',
-			// Set to true to automatically swap out the default image src with the data-highres attribute once the image is wider than lowresWidth. This will also wrap each image with an a vs. div element. Default: false
-			// highresLinks: true,
-			// Sets the width where the default image is swapped out for the high resolution image. Default: 500
-			// lowresWidth: 300,
-			// Asign a common rel attribute for lightbox viewers
-			// rel: 'print-gallery',
-
-			onInit: function(){},
-			onComplete: function(){
-				// Show the grid after it renders
-				$('.photoset-grid-1').css({
-					'visibility': 'visible'
-				});
-			}
-
-		});
-
-	};
-
 	SHORTNAME.widowFix = function() {
 
 		// takes care of widows - hehe
@@ -597,33 +241,6 @@
 			var string = $(this).html();
 			string     = string.replace(/ ([^ ]*)$/,'&nbsp;$1');
 			$(this).html(string);
-		});
-
-	};
-
-	SHORTNAME.pageTransitions = function() {
-
-		// fade transition navigation thru site
-
-		// SHORTNAME.elems.body.hide().addClass('fadeIn');
-
-		SHORTNAME.elems.body.on('click', 'a:not([href^="#"]):not([data-scroll-to]):not([data-type*="mfp-"])', function(e) {
-
-			e.preventDefault();
-			var linkLocation = $(this).attr('href');
-
-			if ( linkLocation == 'javascript:;' ) return;
-
-			function redirectPage() {
-				window.location = linkLocation;
-			}
-
-			SHORTNAME.elems.body.addClass('fadeOut');
-
-			setTimeout(function() {
-				window.location = linkLocation;
-			}, 300);
-
 		});
 
 	};
@@ -645,76 +262,6 @@
 				}
 			}
 		});
-
-	};
-
-	SHORTNAME.parallaxVert = function() {
-		// parallax scroll
-		$( document ).on( 'scroll', function() {
-
-			if ( $window.width() >= 900 && SHORTNAME.elems.body[0].scrollHeight > $( window ).height() ) {
-
-				var scrollPos = typeof window.pageYOffset !== 'undefined' ? window.pageYOffset : SHORTNAME.elems.body.scrollTop(),
-					scrollHeight  = SHORTNAME.elems.body[0].scrollHeight - $window.height(),
-					backgroundPos = (scrollPos / scrollHeight) * 100;
-
-				backgroundPos = Math.min( Math.max( backgroundPos, 0 ), 100 );
-				SHORTNAME.elems.cover.css({
-					'background-position' : 'center ' + backgroundPos + '%'
-				});
-			}
-		});
-	};
-
-	SHORTNAME.mobileNav = function() {
-
-		if ( !SHORTNAME.elems.mobileNav.length ) return;
-
-		// responsive nav
-		var nav = responsiveNav('.nav-collapse', { // Selector
-			animate:			true, // Boolean: Use CSS3 transitions, true or false
-			transition: 		300, // Integer: Speed of the transition, in milliseconds
-			label:				'Menu', // String: Label for the navigation toggle
-			insert:				'before', // String: Insert the toggle before or after the navigation
-			// customToggle:		'', // Selector: Specify the ID of a custom toggle
-			closeOnNavClick: 	false, // Boolean: Close the navigation when one of the links are clicked
-			openPos:			'relative', // String: Position of the opened nav, relative or static
-			navClass:			'nav-collapse', // String: Default CSS class. If changed, you need to edit the CSS too!
-			navActiveClass:		'js-nav-active', // String: Class that is added to  element when nav is active
-			jsClass:			'js', // String: 'JS enabled' class which is added to  element
-		});
-	};
-
-	SHORTNAME.infinitescroll = function() {
-
-		if ( !$.fn.infinitescroll ) return;
-
-		if( !window.is_singular && window.infinite_scroll == '1' ) {
-
-			SHORTNAME.elems.loadMoreContainer.infinitescroll({
-
-				loading: {
-					// finished: undefined, // undefined or function
-					// finishedMsg: '<em>Congratulations, you\'ve reached the end of the internet.</em>',
-					finishedMsg: '<em>Congratulations, you\'ve reached the end.</em>',
-					img: window.framework_url + 'assets/images/loader.gif',
-					// img: '',
-					msgText: '<em>Loading the next set of posts...</em>',
-				},
-				// debug: true,
-				behavior: 'twitter', // default: undefined; comment out for on scroll, set to twitter for on click
-				navSelector: '.pagination',
-				nextSelector: '.pagination a:first',
-				itemSelector: '.post',
-				animate: true,
-
-			}, function ( newElements ){
-
-				SHORTNAME.init();
-
-			});
-
-		}
 
 	};
 

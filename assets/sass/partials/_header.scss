@@ -1,25 +1,4 @@
 // global header styles
 #header {
-	line-height: 100px;
-	// background-color: $white;
-	// @extend %sticky;
-	@include breakpoint($small) {
-		position: absolute;
-		z-index: $zIndex-1;
-		top: 0;
-		right: 0;
-		left: 0;
-		&.has-hero {
-			.logo {
-				color: $white;
-			}
-		}
-	}
-	.logo {
-		float: left;
-		font-family: $header-font;
-		text-transform: uppercase;
-		font-weight: 800;
-		color: $black;
-	}
+
 }

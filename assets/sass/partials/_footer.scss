@@ -1,25 +1,4 @@
 // global footer styles
 #footer {
-	background-color: #171a1c;
-	text-align: center;
-	color: $white;
-	padding: 2rem 0;
 
-	.social-icons {
-		@include font-size(12);
-		a {
-			color: #444;
-			&:hover {
-				color: $white;
-			}
-		}
-	}
-	p {
-		@include font-size(11);
-		text-transform: uppercase;
-		font-weight: 700;
-		color: #ccc;
-		letter-spacing: 1px;
-		margin: 0;
-	}
 }

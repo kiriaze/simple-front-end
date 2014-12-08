@@ -6,18 +6,20 @@
 	$footer-selector: unquote('#footer'),
 	$push-selector:   unquote('#push-footer')
 ) {
-	body > #{$main-selector} {
-		margin-bottom: -$height;
-		min-height:    100%;
-		#{$push-selector} {
-			clear:  both;
-			height: $height;
+	@include breakpoint($small) {
+		body > #{$main-selector} {
+			margin-bottom: -$height;
+			min-height:    100%;
+			#{$push-selector} {
+				clear:  both;
+				height: $height;
+			}
 		}
-	}
-	#{$footer-selector} {
-		clear:    both;
-		height:   $height;
-		position: relative;
+		#{$footer-selector} {
+			clear:    both;
+			height:   $height;
+			position: relative;
+		}
 	}
 }
 
