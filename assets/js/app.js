@@ -58,6 +58,7 @@
 		SHORTNAME.elems.mfpImage           =   $('[data-type="mfp-image"]');
 		SHORTNAME.elems.mfpInline          =   $('[data-type="mfp-inline"]');
 		SHORTNAME.elems.mfpIframe          =   $('[data-type="mfp-iframe"]');
+		SHORTNAME.elems.instagram		   =   $('.instagram');
 
 	};
 
@@ -247,8 +248,10 @@
 
 	SHORTNAME.instagram = function() {
 
-		var	user_id = '695497474', //userid
-			num_to_display = '1', //instagram limits to max 20, but you can do less for your layout.
+		if ( !SHORTNAME.elems.instagram.length ) return;
+
+		var	user_id = '695497474', // userid
+			num_to_display = '1', // instagram limits to max 20, but you can do less for your layout.
 			access_token = '695497474.45e59c8.a618fb95f14947b08d2137fd66797bbd';
 
 		$.ajax({
@@ -257,8 +260,8 @@
 			cache: false,
 			url: 'https://api.instagram.com/v1/users/'+user_id+'/media/recent/?access_token='+access_token,
 			success: function(data) {
-				for (var i = 0; i < num_to_display; i++) {
-					$('.instagram').append('<li class="instagram-single-'+i+'"><a target="_blank" href="' + data.data[i].link +'" class="instagram-image overlay block" style="background-image: url('+data.data[i].images.low_resolution.url+')"><span><h5>Instagram</h5></span></a></li>');
+				for ( var i = 0; i < num_to_display; i++ ) {
+					SHORTNAME.elems.instagram.append('<li class="instagram-single-'+i+'"><a target="_blank" href="' + data.data[i].link +'" class="instagram-image overlay block" style="background-image: url('+data.data[i].images.low_resolution.url+')"><span><h5>Instagram</h5></span></a></li>');
 				}
 			}
 		});
@@ -350,7 +353,9 @@
 	});
 
 	$window.resize(function(event) {
+
 		SHORTNAME.vertAlign();
+
 	});
 
 	$(document).ready(function(){

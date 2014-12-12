@@ -10,8 +10,8 @@ A html boilerplate utilizing .kit and simple's front end framework.
 2. Drop into Codekit.
 3. Make dope shit.
 
-#### Simple-Child w/ Bower
-1. Handled through Simple-Child
+#### Simple-front-end w/ Bower
+1. Handled through Simple-Front-End
 
 ### Todos:
 1. Bower implementation

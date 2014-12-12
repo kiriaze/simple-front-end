@@ -1,0 +1,126 @@
+<h1>SFE</h1>
+
+<p>A html boilerplate utilizing .kit and simple&rsquo;s front end framework.</p>
+
+<h3>Installation:</h3>
+
+<h4>Standalone</h4>
+
+<ol>
+<li>Clone.</li>
+<li>Drop into Codekit.</li>
+<li>Make dope shit.</li>
+</ol>
+
+
+<h4>Simple-front-end w/ Bower</h4>
+
+<ol>
+<li>Handled through Simple-Front-End</li>
+</ol>
+
+
+<h3>Todos:</h3>
+
+<ol>
+<li>Bower implementation</li>
+<li>Patternlab implementation</li>
+<li>Clean up components - include via bower option?</li>
+<li>Better SVG handling.</li>
+</ol>
+
+
+<p>Simple&rsquo;s current philosophy parallels the smaccs, oocss, an bem philosophy - but better.
+Meet Soma.
+<code>
+S imple
+O bject Oriented
+M odular
+A rchitecture
+</code></p>
+
+<ul>
+<li>No underscores, camelcasing, or double hyphens - umm did people forget proper naming conventions specific to each language?
+
+<ul>
+<li>Although I would prefer using camelcasing over many hypens</li>
+</ul>
+</li>
+<li>Scss only, less sucks donkey dick.</li>
+<li>Minimal ID&rsquo;s, primarily for main elements, e.g. header,nav, main, footer, and for js manipulation.</li>
+<li>Placeholders galore. ( % incase you didn&rsquo;t know )</li>
+<li>Prefix free, of source files. ( let your compiler handle that jazz )</li>
+<li>Tabs people, make code readable. ( In other words, 4 spaces instead of 2 )</li>
+<li>No super nesting, 3 levels deep - max.</li>
+<li><p>Space out your shit. Example:
+```
+  // css
+  .some-element {
+      width: 80%;
+      margin: 0 auto;
+  }</p>
+
+<p>  // js
+  if ( $( &lsquo;.some-element&rsquo; ).length ) {
+      console.log(&lsquo;foo&rsquo;);
+  }</p>
+
+<p>  // php
+  if ( isset( $someElement ) ) {
+      print_r($someElement);
+  }
+```</p></li>
+<li><p>Keep syntax consistent - dont mix and match buddy.
+`&ldquo;
+&lt;?php
+  // Traditional
+  if ( isset( $foo ) ) {
+      $someElement = &lsquo;bar&rsquo;;
+  } else {
+      $someElement = &rdquo;;
+  }</p>
+
+<p>  // alternative syntax
+  if ( isset( $foo ) ) :
+      $someElement = &lsquo;bar&rsquo;;
+  else :
+      $someElement = &lsquo;&rsquo;;
+  endif;</p>
+
+<p>  // shorthand ternary operators
+  $someElement = $foo ? &lsquo;bar&rsquo; : &lsquo;&rsquo;;
+?>
+```</p></li>
+<li>Scss example</li>
+</ul>
+
+
+<p>```
+%button {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em;
+}
+%twitter-background {
+  color: #fff;
+  background: #55acee;
+}
+%facebook-background {
+  color: #fff;
+  background: #3b5998;
+}</p>
+
+<p>.btn {
+  &amp;&ndash;twitter {
+    @extend %button;
+    @extend %twitter-background;
+  }
+  &amp;&ndash;facebook {
+    @extend %button;
+    @extend %facebook-background;
+  }
+}</p>
+
+<p><a href="#" class="btn--twitter">Twitter</a>
+<a href="#" class="btn--facebook">Facebook</a>
+```</p>
