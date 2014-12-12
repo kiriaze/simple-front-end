@@ -1,59 +1,30 @@
 /* ============================================
-	S I M P L E
+	S I M P L E - G R I D
 
-
- * The template is for rendering single's.
- *
- * @package     Simple
- * @version     1.0
- * @author      Constantine Kiriaze
- * @website     github.com/kiriaze/simple
+	Dead simple grids. Cross browser. Semantic. Intuitive. Follows Simple's philosophy of SOMA.
 
 	Browsers: ie8, ie10, ie11, FF, Safari, Chrome
 
 	Dependancies :
 
-		Variables below defined in _base.scss
+		Variables below defined in your _base.scss or similar.
 
 			$container-class: 'foo';
 			$row-class: 'foo';
 			$column-class: 'bar';
 			$gutter: 3%; // spacing between columns
-			$max-columns: 6; //  @for loop class declarations
-			breakpoint mixins
+			$max-columns: 6; //  @for loop class declarations - used for equal column single digit
+			breakpoint mixin function - included in repo.
 
-.columns-{percentage, double digit}
-	.columns-70, .columns-30 = totaling to 100
+	Usage :
 
-.columns-{single digit number}
-	.columns-1
-	.columns-2, .columns-2
-	.columns-4, .columns-4, .columns-4, .columns-4
+		.columns-{percentage, double digit} for mixed columns
+			.columns-70, .columns-30 = totaling to 100
 
-
-
-// // method for %ib layout fix for spacing consider
-// @font-face{
-//     font-family: 'NoSpace';
-//     src: url('../Fonts/zerowidthspaces.eot');
-//     src: url('../Fonts/zerowidthspaces.eot?#iefix') format('embedded-opentype'),
-//          url('../Fonts/zerowidthspaces.woff') format('woff'),
-//          url('../Fonts/zerowidthspaces.ttf') format('truetype'),
-//          url('../Fonts/zerowidthspaces.svg#NoSpace') format('svg');
-// }
-
-// body {
-//     font-face: 'OpenSans', sans-serif;
-// }
-
-// .inline-container {
-//     font-face: 'NoSpace';
-// }
-
-// .inline-container > * {
-//     display: inline-block;
-//     font-face: 'OpenSans', sans-serif;
-// }
+		.columns-{single digit number} for equal coloumns
+			.columns-1
+			.columns-2, .columns-2
+			.columns-4, .columns-4, .columns-4, .columns-4
 
 ============================================ */
 

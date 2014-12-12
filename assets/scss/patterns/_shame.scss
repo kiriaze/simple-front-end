@@ -41,6 +41,10 @@ section {
 	overflow: hidden;
 }
 
+.container {
+	transition: $transition;
+}
+
 #header {
 	padding: 2rem 0;
 	.logo {
@@ -61,17 +65,21 @@ section {
 	}
 }
 
-#footer {
-	padding: 2rem 0;
-	.social-icons {
-		text-align: center;
-		margin-bottom: 1rem;
-		li {
-			display: inline-block;
-			margin-right: .5rem;
-			margin-bottom: 0;
+.social-icons {
+	text-align: center;
+	margin: 2rem 0 0;
+	li {
+		display: inline-block;
+		margin-right: 2.5rem;
+		margin-bottom: 0;
+		&:last-child {
+			margin: 0;
 		}
 	}
+}
+
+#footer {
+	padding: 2rem 0;
 	.made-with {
 		text-align: center;
 		margin-bottom: 0;
@@ -98,10 +106,24 @@ section {
 	i {
 		margin-right: .5rem;
 	}
-	&:hover {
+	&:hover,
+	&.solid {
 		background: $theme-color;
 		border-color: $theme-color;
 		color: $white;
+	}
+	&.solid {
+		&:hover {
+			background: darken($theme-color, 20);
+			border-color: darken($theme-color, 20);
+		}
+	}
+}
+
+.download-options {
+	[class*='#{$column-class}-'],
+	[data-columns] {
+		padding: 0 1rem;
 	}
 }
 
@@ -117,6 +139,8 @@ section {
 	// testing purposes
 	[class*='#{$column-class}-'],
 	[data-columns] {
+		// background: $theme-color;
+		// color: white;
 		background: $yellow;
 		margin-top: 0.5rem;
 		margin-bottom: 0.5rem;
@@ -131,6 +155,16 @@ section {
 		}
 	}
 
+	#simple-grid {
+		[class*='#{$column-class}-'],
+		[data-columns] {
+			@include breakpoint($small) {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+
 }
 
 // grid ib
@@ -140,6 +174,8 @@ section {
 		width: 100%;
 
 		// testing purposes
+		// background: $theme-color;
+		// color: white;
 		background: $yellow;
 		padding: 1.5rem 0;
 		margin-top: 0rem;
