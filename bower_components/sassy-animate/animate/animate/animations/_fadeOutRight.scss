@@ -1,12 +1,14 @@
-@keyframes fadeOutRight {
-	0% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-	
-	100% {
-		opacity: 0;
-		transform: translateX(20%);
+@if $fadeOutRight == true {
+	@keyframes fadeOutRight {
+		0% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+
+		100% {
+			opacity: 0;
+			transform: translateX(20%);
+		}
 	}
 }
 

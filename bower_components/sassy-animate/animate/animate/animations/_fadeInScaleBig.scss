@@ -1,11 +1,13 @@
-@keyframes fadeInScaleBig {
-	0% {
-		transform: scale(2);
-		opacity: 0;
-	}	
-	100% {
-		transform: scale(1);
-		opacity: 1;
+@if $fadeInScaleBig == true {
+	@keyframes fadeInScaleBig {
+		0% {
+			transform: scale(2);
+			opacity: 0;
+		}
+		100% {
+			transform: scale(1);
+			opacity: 1;
+		}
 	}
 }
 

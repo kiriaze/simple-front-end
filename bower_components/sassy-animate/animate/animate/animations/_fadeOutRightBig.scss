@@ -1,12 +1,14 @@
-@keyframes fadeOutRightBig {
-	0% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-	
-	100% {
-		opacity: 0;
-		transform: translateX(2000px);
+@if $fadeOutRightBig == true {
+	@keyframes fadeOutRightBig {
+		0% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+
+		100% {
+			opacity: 0;
+			transform: translateX(2000px);
+		}
 	}
 }
 

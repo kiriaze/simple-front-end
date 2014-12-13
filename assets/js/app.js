@@ -2,17 +2,20 @@
 // @codekit-prepend 'vendor/jquery-2.0.3.min.js'
 // @codekit-prepend 'vendor/jquery.easing.min.js'
 // @codekit-prepend 'vendor/modernizr-2.8.3.min.js'
-// @codekit-prepend 'plugins/fastclick.js'
-// @codekit-prepend 'plugins/retina.js'
+
+// @codekit-prepend '../../bower_components/fastclick/lib/fastclick.js'
+// @codekit-prepend '../../bower_components/retinajs/dist/retina.min.js'
+// @codekit-prepend '../../bower_components/jquery.lazyload/jquery.lazyload.min.js'
+
 // @codekit-prepend 'plugins/simpleAnchors.js'
-// @codekit-prepend 'plugins/jquery.lazyload.min.js'
 // @codekit-prepend 'plugins/jquery.validate.min.js'
 // @codekit-prepend 'plugins/simpleforms.min.js'
-// @codekit-prepend 'plugins/prettify.js'
-// @codekit-prepend 'plugins/signet.min.js'
-// @codekit-prepend 'plugins/jquery.matchHeight-min.js'
-// @codekit-prepend 'plugins/jquery.magnific-popup.min.js'
-// @codekit-prepend 'plugins/mediaelement-and-player.min.js'
+
+// @codekit-prepend '../../bower_components/google-code-prettify/src/prettify.js'
+// @codekit-prepend '../../bower_components/matchHeight/jquery.matchHeight-min.js'
+// @codekit-prepend '../../bower_components/magnific-popup/dist/jquery.magnific-popup.min.js'
+// @codekit-prepend '../../bower_components/mediaelement/build/mediaelement-and-player.min.js'
+
 // @codekit-prepend 'plugins/simple-media.js'
 
 (function($){
@@ -35,8 +38,6 @@
 		SHORTNAME.vertAlign();
 
 		SHORTNAME.widowFix();
-		SHORTNAME.instagram();
-		SHORTNAME.tabs();
 		SHORTNAME.mediaElements();
 		SHORTNAME.magnificPopup();
 
@@ -55,10 +56,10 @@
 		SHORTNAME.elems.lazyImg				=	$('img.lazy');
 
 		SHORTNAME.elems.mediaElements      =   $('[data-media-src]');
+
 		SHORTNAME.elems.mfpImage           =   $('[data-type="mfp-image"]');
 		SHORTNAME.elems.mfpInline          =   $('[data-type="mfp-inline"]');
 		SHORTNAME.elems.mfpIframe          =   $('[data-type="mfp-iframe"]');
-		SHORTNAME.elems.instagram		   =   $('.instagram');
 
 	};
 
@@ -246,28 +247,6 @@
 
 	};
 
-	SHORTNAME.instagram = function() {
-
-		if ( !SHORTNAME.elems.instagram.length ) return;
-
-		var	user_id = '695497474', // userid
-			num_to_display = '1', // instagram limits to max 20, but you can do less for your layout.
-			access_token = '695497474.45e59c8.a618fb95f14947b08d2137fd66797bbd';
-
-		$.ajax({
-			type: 'GET',
-			dataType: 'jsonp',
-			cache: false,
-			url: 'https://api.instagram.com/v1/users/'+user_id+'/media/recent/?access_token='+access_token,
-			success: function(data) {
-				for ( var i = 0; i < num_to_display; i++ ) {
-					SHORTNAME.elems.instagram.append('<li class="instagram-single-'+i+'"><a target="_blank" href="' + data.data[i].link +'" class="instagram-image overlay block" style="background-image: url('+data.data[i].images.low_resolution.url+')"><span><h5>Instagram</h5></span></a></li>');
-				}
-			}
-		});
-
-	};
-
 	SHORTNAME.forms = function(){
 
 		// honeypot antispam
@@ -311,21 +290,21 @@
 		vertAlign();
 	};
 
-	$window.load(function() {
+	SHORTNAME.icons = function() {
 
-        // quick fix for icons
-        // (needs work - current this finds anything that contains these letters within classes)
-        $('body').find('[class*=ion-]').filter(function() {
-            return this.className.match(/\bion-/);
-        }).addClass('ion');
+		// quick fix for icons
+		// (needs work - current this finds anything that contains these letters within classes)
+		$('body').find('[class*=ion-]').filter(function() {
+			return this.className.match(/\bion-/);
+		}).addClass('ion');
 
-        $('body').find('[class*=fa-]').filter(function() {
-            return this.className.match(/\bfa-/);
-        }).addClass('fa');
+		$('body').find('[class*=fa-]').filter(function() {
+			return this.className.match(/\bfa-/);
+		}).addClass('fa');
 
-        $('body').find('[class*=fi-]').filter(function() {
-            return this.className.match(/\bfi-/);
-        }).addClass('fi');
+		$('body').find('[class*=fi-]').filter(function() {
+			return this.className.match(/\bfi-/);
+		}).addClass('fi');
 
 		// fund ul's with 'list-style-' class, and apply icons to that list
 		$('ul[class*=list-style-]').filter(function(){
@@ -349,6 +328,12 @@
 			});
 
 		});
+
+	};
+
+	$window.load(function() {
+
+		SHORTNAME.icons();
 
 	});
 
