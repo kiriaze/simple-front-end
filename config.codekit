@@ -784,22 +784,6 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
-	"\/assets\/scss\/patterns\/_tabs.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scss\/patterns\/_tabs.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_tabs.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 0
-		},
 	"\/assets\/scss\/patterns\/_typography.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,

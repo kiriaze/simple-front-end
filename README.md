@@ -1,7 +1,7 @@
 SFE
 ===========
 
-A html boilerplate utilizing .kit and simple's front end framework.
+A html boilerplate utilizing .kit and simple's front end framework. Under 1.4mb.
 
 ### Installation:
 
@@ -11,8 +11,7 @@ A html boilerplate utilizing .kit and simple's front end framework.
 3. Make dope shit.
 
 #### Features
-1. Global Z-indexes
-2. Bowered assets
+1. Bowered assets
 	1. jQuery
 	2. jQuery.lazyload
 	3. fastclick
@@ -25,19 +24,17 @@ A html boilerplate utilizing .kit and simple's front end framework.
 	10. SimpleAnchors
 	11. SimpleForms
 	12. MFP
-3. SimpleGrid
-4. Global Colors
-5. jQuery
-	1. Validate
-	2. UI
-	3. Easing
-6. Modernizr
-6. 1000+ Icons
+2. Included Plugins
+	1. jQuery
+		1. Validate
+		2. UI
+		3. Easing
+	2. Modernizr
+3. 1000+ Icons
 	1. Entypo/Social
 	2. FontAwesome
 	3. Foundation
 	4. IonIons
-7. Image Filters
 
 Simple's current philosophy parallels the smaccs, oocss, an bem philosophy - but better.
 Meet Soma.
