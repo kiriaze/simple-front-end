@@ -1,3 +1,9 @@
+//
+//
+// Typography - core/_typography.scss
+//
+//
+
 // Site Global Dimensions
 $tiny:							em(480); // 30em
 $small:							em(768); // 45em
@@ -37,6 +43,18 @@ $list-line-height:				1.6 !default;
 // Blockquotes
 $blockquotes-font-size:			21 !default;
 
+// fonts - core/_fonts.scss
+$body-font:						'Open Sans', helvetica, sans-serif; // bourbon font stacks
+$header-font:					'Open Sans', $body-font; // theme specific
+
+
+
+//
+//
+// Grid Layout - core/_grid.scss
+//
+//
+
 // Container and Column classes for simplegrid
 $container-class:				'container'; // defaults to [data-layout = "container"]
 $row-class:						'row'; // defaults to [data-layout = "grid"]
@@ -45,11 +63,9 @@ $number-of-columns:				12; // max number of columns
 // $gridDebug:						true; // grid colors
 // $gutter:						0;
 
-// fonts - core/_fonts.scss
-$body-font:						'Open Sans', helvetica, sans-serif; // bourbon font stacks
-$header-font:					'Open Sans', $body-font; // theme specific
 
 
+//
 //
 // COLOR VARIABLES - patterns/_colors.scss
 //
@@ -85,7 +101,6 @@ $default:						#ebebeb;
 $light-grey:                    #f5f5f5;
 $dark-grey:                     #333;
 
-
 // theme colors
 $theme-color:                   $blue;
 $accent-color:                  darken($theme-color, 10); // That is, 10% darker than the theme-color.
@@ -95,6 +110,13 @@ $tertiary-color:                $accent-color;
 // dark class
 $dark:							#434d5a;
 
+
+
+//
+//
+// Animations - vendor/_animate.scss
+//
+//
 
 // Animation Property Variables
 $duration:						.35s; // was .15, upped for hero transition - or change via js

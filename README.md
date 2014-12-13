@@ -10,14 +10,7 @@ A html boilerplate utilizing .kit and simple's front end framework.
 2. Drop into Codekit.
 3. Make dope shit.
 
-#### Simple-front-end w/ Bower
-1. Handled through Simple-Front-End
-
-### Todos:
-1. Bower implementation
-2. Patternlab implementation
-3. Clean up components - include via bower option?
-4. Better SVG handling.
+#### Simple-front-end w/ Bower ( Coming Soon! )
 
 Simple's current philosophy parallels the smaccs, oocss, an bem philosophy - but better.
 Meet Soma.
@@ -106,3 +99,11 @@ A rchitecture
 <a href="#" class="btn--twitter">Twitter</a>
 <a href="#" class="btn--facebook">Facebook</a>
 ```
+
+
+### Todos:
+~~1. Bower implementation~~
+2. Patternlab implementation
+~~3. Clean up components - include via bower option?~~
+4. Better SVG handling.
+5. Add simpleAnchors, simpleMedia, simpleForms to bower.

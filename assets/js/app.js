@@ -9,14 +9,14 @@
 
 // @codekit-prepend 'plugins/simpleAnchors.js'
 // @codekit-prepend 'plugins/jquery.validate.min.js'
-// @codekit-prepend 'plugins/simpleforms.min.js'
+// @codekit-prepend 'plugins/simpleForms.js'
 
 // @codekit-prepend '../../bower_components/google-code-prettify/src/prettify.js'
 // @codekit-prepend '../../bower_components/matchHeight/jquery.matchHeight-min.js'
 // @codekit-prepend '../../bower_components/magnific-popup/dist/jquery.magnific-popup.min.js'
 // @codekit-prepend '../../bower_components/mediaelement/build/mediaelement-and-player.min.js'
 
-// @codekit-prepend 'plugins/simple-media.js'
+// @codekit-prepend 'plugins/simpleMedia.js'
 
 (function($){
 
