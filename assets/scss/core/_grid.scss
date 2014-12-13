@@ -175,6 +175,7 @@ $gridDebug:			false !default;
 	@for $i from 1 through $max-columns {
 		[data-columns='#{$i}'],
 		.#{$column-class}-#{$i} {
+			@include column();
 			@include breakpoint($small) {
 				@include columns($i);
 			}
@@ -185,6 +186,7 @@ $gridDebug:			false !default;
 	@for $i from 1 through 10 {
 		[data-columns='.#{$i}'],
 		.#{$column-class}-#{$i}0 {
+			@include column();
 			@include breakpoint($small) {
 				@include columns($i/10);
 			}

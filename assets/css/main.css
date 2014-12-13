@@ -920,6 +920,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='1'],
+.columns-1 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='1'],
   .columns-1 {
@@ -942,6 +950,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='2'],
+.columns-2 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='2'],
   .columns-2 {
@@ -964,6 +980,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='3'],
+.columns-3 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='3'],
   .columns-3 {
@@ -986,6 +1010,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='4'],
+.columns-4 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='4'],
   .columns-4 {
@@ -1008,6 +1040,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='5'],
+.columns-5 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='5'],
   .columns-5 {
@@ -1030,6 +1070,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='6'],
+.columns-6 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='6'],
   .columns-6 {
@@ -1052,6 +1100,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='7'],
+.columns-7 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='7'],
   .columns-7 {
@@ -1074,6 +1130,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='8'],
+.columns-8 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='8'],
   .columns-8 {
@@ -1096,6 +1160,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='9'],
+.columns-9 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='9'],
   .columns-9 {
@@ -1118,6 +1190,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='10'],
+.columns-10 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='10'],
   .columns-10 {
@@ -1140,6 +1220,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='11'],
+.columns-11 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='11'],
   .columns-11 {
@@ -1162,6 +1250,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='12'],
+.columns-12 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='12'],
   .columns-12 {
@@ -1184,6 +1280,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.1'],
+.columns-10 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.1'],
   .columns-10 {
@@ -1206,6 +1310,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.2'],
+.columns-20 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.2'],
   .columns-20 {
@@ -1228,6 +1340,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.3'],
+.columns-30 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.3'],
   .columns-30 {
@@ -1250,6 +1370,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.4'],
+.columns-40 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.4'],
   .columns-40 {
@@ -1272,6 +1400,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.5'],
+.columns-50 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.5'],
   .columns-50 {
@@ -1294,6 +1430,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.6'],
+.columns-60 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.6'],
   .columns-60 {
@@ -1316,6 +1460,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.7'],
+.columns-70 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.7'],
   .columns-70 {
@@ -1338,6 +1490,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.8'],
+.columns-80 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.8'],
   .columns-80 {
@@ -1360,6 +1520,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.9'],
+.columns-90 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.9'],
   .columns-90 {
@@ -1382,6 +1550,14 @@ q:before, q:after {
   }
 }
 
+[data-columns='.10'],
+.columns-100 {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
 @media (min-width: 48em) {
   [data-columns='.10'],
   .columns-100 {
