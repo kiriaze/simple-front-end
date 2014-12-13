@@ -110,4 +110,5 @@ A rchitecture
 3. ~~Clean up components - include via bower option?~~
 4. Better SVG handling.
 5. Add simpleAnchors, simpleMedia, simpleForms to bower.
-6. SFE as a bower component ( Coming Soon! )
+6. SFE as a bower component.
+7. Pluggable components from SFE+, the stacked version.
